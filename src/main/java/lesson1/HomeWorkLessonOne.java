@@ -23,16 +23,16 @@ public class HomeWorkLessonOne {
         WebElement emailField = driver.findElement(By.id("email"));
         emailField.sendKeys("neeshloshad@gmail.com");
         WebElement passwordField = driver.findElement(By.id("pass"));
-        passwordField.sendKeys("********"); //sorry, but I can't write you my password
+        passwordField.sendKeys("**************"); //sorry, but I can't write you my password
         WebElement loginButton = driver.findElement(By.id("u_0_3"));
         loginButton.submit();
 
         WebElement waitFor = (new WebDriverWait(driver, 10))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id("u_0_c")));
 
-        System.out.println("Page title is:" + driver.getTitle());
+        System.out.println("Page title is:" + driver.findElement(By.id("u_0_c")).getText());
 
-        if (driver.findElement(By.id("checkpointSubmitButton")).isDisplayed())
+        if (driver.findElement(By.id("js_l")).isDisplayed())
         {
             System.out.println("Congratulations");
         } else {
