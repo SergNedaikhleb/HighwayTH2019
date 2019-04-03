@@ -24,7 +24,5 @@ public class GoogleSearchHelloWorld {
 
         System.out.println("I see this words: " + driver.getTitle());
         driver.quit();
-
-
     }
 }
