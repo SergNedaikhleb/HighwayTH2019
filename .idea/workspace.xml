@@ -230,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeWorkTaskTwo">
+  <component name="RunManager" selected="Application.HomeWorkTaskFour">
     <configuration name="HomeWorkLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.HomeWorkLessonOne" />
       <module name="HighwayTH2019" />
@@ -245,11 +245,11 @@
       </method>
     </configuration>
     <configuration name="HomeWorkTaskFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkTaskFour" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.homeWorkTasks.HomeWorkTaskFour" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson2.homeWorkTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,11 +258,11 @@
       </method>
     </configuration>
     <configuration name="HomeWorkTaskThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkTaskThree" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.homeWorkTasks.HomeWorkTaskThree" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson2.homeWorkTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,11 +271,11 @@
       </method>
     </configuration>
     <configuration name="HomeWorkTaskTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkTaskTwo" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.homeWorkTasks.HomeWorkTaskTwo" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson2.homeWorkTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +284,11 @@
       </method>
     </configuration>
     <configuration name="HomeWorkTastOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkTastOne" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.homeWorkTasks.HomeWorkTastOne" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson2.homeWorkTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,9 +298,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWorkTaskTwo" />
         <item itemvalue="Application.HomeWorkTaskFour" />
         <item itemvalue="Application.HomeWorkTaskThree" />
+        <item itemvalue="Application.HomeWorkTaskTwo" />
         <item itemvalue="Application.HomeWorkTastOne" />
         <item itemvalue="Application.HomeWorkLessonOne" />
       </list>
