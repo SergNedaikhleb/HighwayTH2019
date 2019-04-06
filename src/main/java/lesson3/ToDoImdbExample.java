@@ -19,8 +19,8 @@ public class ToDoImdbExample {
 
     @Test
     public void myTest(){
-        // go on the page
 
+        // go on the page
         driver.get("https://www.imdb.com/title/tt0111161/");
         // name
         WebElement filmName = driver.findElement(By.xpath("//*[@id='title-overview-widget']//div/h1"));
