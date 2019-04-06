@@ -18,7 +18,8 @@ public class AnnotationExample {
     @Test
     public void myTest(){
 
-        driver.get("https://");
+        driver.get("https://google.com");
+        System.out.println("We are on: "+ driver.getCurrentUrl());
     }
 
     @AfterTest
