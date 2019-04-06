@@ -17,12 +17,6 @@ public class ToDoImdbExample {
          driver = new ChromeDriver();
     }
 
-//    public static void main(String[] args) {
-//
-//        System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
-//
-//        WebDriver driver = new ChromeDriver();
-
     @Test
     public void myTest(){
         // go on the page
@@ -69,9 +63,12 @@ public class ToDoImdbExample {
         System.out.println("Critic Reviews amount: "+criticReviews.getText());
         // similar films
         WebElement similarFilms =driver.findElement(By.xpath("//*[@id='title_recs']/div[2]/div[12]//a/b"));
-
-
-
+        WebElement nextSimilarFilmButton =driver.findElement((By.cssSelector(" div.rec_overviews > didiv.rec_actions > div.rec_next_btn > span > a")));
+        System.out.println("First similar film "+similarFilms.getText());
+        nextSimilarFilmButton.click();
+        System.out.println("Second similar film "+similarFilms.getText());
+        nextSimilarFilmButton.click();
+        System.out.println("Third similar film "+similarFilms.getText());
     }
 
     @AfterTest
