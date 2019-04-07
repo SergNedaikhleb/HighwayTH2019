@@ -70,11 +70,11 @@ public class ToDoCinemaSeats {
 
         // let's count a percent of occupied places
         float occupiedPlacesPercentage = (float)((occupiedPlacesCount*100)/allPlacesCount);
-        System.out.println("The number of occupied places is: "+ occupiedPlacesPercentage);
+        System.out.println("The number of occupied places is: "+ occupiedPlacesPercentage+ "%");
 
         // let's count a percent of free places
         float freePlacesPercentage = (float)((freePlacesCount*100)/allPlacesCount);
-        System.out.println("The number of free places is: "+ freePlacesPercentage);
+        System.out.println("The number of free places is: "+ freePlacesPercentage+ "%");
     }
 
     @AfterTest

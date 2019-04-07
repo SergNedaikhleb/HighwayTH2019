@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,24 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1810#1811#0" expanded="true" />
@@ -47,11 +32,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+            <state relative-caret-position="388">
+              <caret line="43" column="130" lean-forward="true" selection-start-line="43" selection-start-column="130" selection-end-line="43" selection-end-column="130" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#593#594#0" expanded="true" />
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" />
       </list>
     </option>
   </component>
@@ -142,8 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="45" />
+    <option name="x" value="1998" />
+    <option name="y" value="38" />
     <option name="width" value="1657" />
     <option name="height" value="968" />
   </component>
@@ -240,42 +240,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PersonalExample (3)">
-    <configuration name="PersonalExample (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.PersonalExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ToDoCurrency.myTest">
     <configuration name="PersonalExample (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.PersonalExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonalExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
@@ -327,13 +293,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToDoCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.ToDoCurrency" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoCurrency.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.ToDoCurrency" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ToDoCurrency.myTest" />
+        <item itemvalue="TestNG.ToDoCurrency" />
         <item itemvalue="TestNG.PersonalExample (3)" />
         <item itemvalue="TestNG.PersonalExample.myTest" />
         <item itemvalue="TestNG.ToDoCinemaSeats" />
-        <item itemvalue="TestNG.PersonalExample" />
-        <item itemvalue="TestNG.PersonalExample (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -359,35 +360,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonalExample_myTest - 2019.04.07 at 15h 41m 44s.xml">
-      <configuration name="PersonalExample.myTest" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 04m 05s.xml">
+      <configuration name="ToDoCurrency" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample_myTest - 2019.04.07 at 15h 42m 00s.xml">
-      <configuration name="PersonalExample.myTest" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 10m 18s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample_myTest - 2019.04.07 at 15h 43m 38s.xml">
-      <configuration name="PersonalExample.myTest" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 10m 45s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample - 2019.04.07 at 15h 44m 08s.xml">
-      <configuration name="PersonalExample" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 11m 32s.xml">
+      <configuration name="ToDoCurrency" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample_myTest - 2019.04.07 at 15h 45m 02s.xml">
-      <configuration name="PersonalExample.myTest" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 15m 59s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample - 2019.04.07 at 15h 45m 52s.xml">
-      <configuration name="PersonalExample" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 16m 32s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample_myTest - 2019.04.07 at 15h 46m 14s.xml">
-      <configuration name="PersonalExample.myTest" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 16m 54s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample_myTest - 2019.04.07 at 15h 46m 36s.xml">
-      <configuration name="PersonalExample.myTest" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 23m 48s.xml">
+      <configuration name="ToDoCurrency" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCinemaSeats - 2019.04.07 at 16h 10m 18s.xml">
-      <configuration name="ToDoCinemaSeats" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 27m 00s.xml">
+      <configuration name="ToDoCurrency" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonalExample_(3) - 2019.04.07 at 16h 49m 02s.xml">
-      <configuration name="PersonalExample (3)" configurationId="TestNG" />
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 28m 34s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -400,8 +401,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="45" width="1657" height="968" extended-state="0" />
-    <editor active="true" />
+    <frame x="1998" y="38" width="1657" height="968" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22160149" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -412,12 +412,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22526817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35041717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893157" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23599523" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26221693" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893157" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.25268176" />
@@ -605,19 +605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="330">
           <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -629,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        <state relative-caret-position="388">
+          <caret line="43" column="130" lean-forward="true" selection-start-line="43" selection-start-column="130" selection-end-line="43" selection-end-column="130" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#593#594#0" expanded="true" />
@@ -639,14 +629,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1810#1811#0" expanded="true" />
             <element signature="e#1839#1840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
