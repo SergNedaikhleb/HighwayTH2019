@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/MinValue.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,22 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="42" column="97" lean-forward="true" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
+              <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2261#2262#0" expanded="true" />
@@ -47,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/BreakExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -70,14 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinValue.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="105">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/FiveValues.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/CompareTwoNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/NumberOfMonth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -86,35 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1810#1811#0" expanded="true" />
-                <element signature="e#1839#1840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="43" column="130" lean-forward="true" selection-start-line="43" selection-start-column="130" selection-end-line="43" selection-end-column="130" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-              </folding>
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -181,6 +170,10 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/FiveValues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/CompareTwoNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/NumberOfMonth.java" />
       </list>
     </option>
   </component>
@@ -203,8 +196,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="265" />
-    <option name="y" value="53" />
+    <option name="x" value="207" />
+    <option name="y" value="76" />
     <option name="width" value="1581" />
     <option name="height" value="968" />
   </component>
@@ -263,6 +256,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeTaskLesson4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -301,9 +303,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinValue">
-    <configuration name="MinValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.MinValue" />
+  <component name="RunManager" selected="Application.CompareTwoNames">
+    <configuration name="CompareTwoNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.CompareTwoNames" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
@@ -315,54 +317,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonalExample (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FiveValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.FiveValues" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson4.HomeTaskLesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.PersonalExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonalExample.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MinAndMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.MinAndMaxValue" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson4.HomeTaskLesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.PersonalExample" />
-      <option name="METHOD_NAME" value="myTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.NumberOfMonth" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson4.HomeTaskLesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.ToDoCurrency" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -387,11 +376,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinValue" />
+        <item itemvalue="Application.CompareTwoNames" />
+        <item itemvalue="Application.FiveValues" />
+        <item itemvalue="Application.MinAndMaxValue" />
+        <item itemvalue="Application.NumberOfMonth" />
         <item itemvalue="TestNG.ToDoCurrency.myTest" />
-        <item itemvalue="TestNG.ToDoCurrency" />
-        <item itemvalue="TestNG.PersonalExample (3)" />
-        <item itemvalue="TestNG.PersonalExample.myTest" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +447,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="27" width="1581" height="968" extended-state="0" />
+    <frame x="207" y="76" width="1581" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23257329" />
@@ -631,7 +620,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/PersonalExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
-          <caret line="43" column="130" lean-forward="true" selection-start-line="43" selection-start-column="130" selection-end-line="43" selection-end-column="130" />
+          <caret line="43" column="130" selection-start-line="43" selection-start-column="130" selection-end-line="43" selection-end-column="130" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#593#594#0" expanded="true" />
@@ -689,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="42" column="97" lean-forward="true" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
+          <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2261#2262#0" expanded="true" />
@@ -701,7 +690,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/BreakExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -722,17 +711,38 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="49" />
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinValue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="105">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/FiveValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/CompareTwoNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/NumberOfMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
