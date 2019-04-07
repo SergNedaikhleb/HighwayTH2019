@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import java.util.concurrent.TimeUnit;
 
 public class ToDoImdbExample {
 
@@ -22,6 +23,8 @@ public class ToDoImdbExample {
 
         // go on the page
         driver.get("https://www.imdb.com/title/tt0111161/");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         // name
         WebElement filmName = driver.findElement(By.xpath("//*[@id='title-overview-widget']//div/h1"));
         System.out.println("This film calls: "+filmName.getText());
