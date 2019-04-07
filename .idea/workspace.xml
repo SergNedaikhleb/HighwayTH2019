@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="319">
               <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,12 +34,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="417">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+                <element signature="e#2290#2291#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,9 +141,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1998" />
-    <option name="y" value="38" />
-    <option name="width" value="1657" />
+    <option name="x" value="243" />
+    <option name="y" value="61" />
+    <option name="width" value="1581" />
     <option name="height" value="968" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -360,34 +359,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 04m 05s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 18h 12m 52s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency - 2019.04.07 at 18h 13m 19s.xml">
       <configuration name="ToDoCurrency" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 10m 18s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 18h 14m 01s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 10m 45s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 18h 17m 44s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 11m 32s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 18h 36m 41s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 18h 47m 01s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency - 2019.04.07 at 18h 59m 27s.xml">
       <configuration name="ToDoCurrency" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 15m 59s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 19h 02m 13s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 16m 32s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 19h 03m 08s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 16m 54s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 23m 48s.xml">
-      <configuration name="ToDoCurrency" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency - 2019.04.07 at 17h 27m 00s.xml">
-      <configuration name="ToDoCurrency" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 17h 28m 34s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 19h 03m 49s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -401,9 +400,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1998" y="38" width="1657" height="968" extended-state="0" />
+    <frame x="243" y="61" width="1581" height="968" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22160149" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23257329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,12 +412,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35041717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2634088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893157" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26221693" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26221693" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893157" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.25268176" />
@@ -641,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="319">
           <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -653,12 +653,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="417">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
           </folding>
         </state>
       </provider>
