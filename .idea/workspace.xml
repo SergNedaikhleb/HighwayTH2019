@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,20 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-                <element signature="e#2290#2291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/BreakExample.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,29 +36,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="480">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/NumberOfMonth.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="342">
+              <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="303">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#552#568#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +101,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/GoogleSearchHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkLessonTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkTastOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkTaskThree.java" />
@@ -131,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/CompareTwoNames.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/NumberOfMonth.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" />
       </list>
     </option>
   </component>
@@ -153,10 +146,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="207" />
-    <option name="y" value="76" />
+    <option name="x" value="1992" />
+    <option name="y" value="16" />
     <option name="width" value="1581" />
-    <option name="height" value="968" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +206,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,8 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DaysOfWeek">
+  <component name="RunManager" selected="Application.HomeWorkLessonOne">
     <configuration name="CompareTwoNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.CompareTwoNames" />
       <module name="HighwayTH2019" />
@@ -300,6 +301,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeWorkLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.HomeWorkLessonOne" />
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinAndMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.MinAndMaxValue" />
       <module name="HighwayTH2019" />
@@ -313,26 +327,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.HomeTaskLesson4.NumberOfMonth" />
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.HomeTaskLesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWorkLessonOne" />
         <item itemvalue="Application.DaysOfWeek" />
         <item itemvalue="Application.CompareTwoNames" />
         <item itemvalue="Application.FiveValues" />
         <item itemvalue="Application.MinAndMaxValue" />
-        <item itemvalue="Application.NumberOfMonth" />
       </list>
     </recent_temporary>
   </component>
@@ -399,10 +400,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="207" y="76" width="1581" height="968" extended-state="0" />
+    <frame x="1992" y="16" width="1581" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23257329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23583062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,12 +412,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26221693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33256617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893157" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26221693" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26237053" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893157" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.25268176" />
@@ -617,32 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-            <element signature="e#2290#2291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/ForExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/BreakExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/CompareTwoNames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -667,34 +642,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/ForExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="480">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/NumberOfMonth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/DaysOfWeek.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/BreakExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#568#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
