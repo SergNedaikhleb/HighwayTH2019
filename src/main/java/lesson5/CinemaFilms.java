@@ -33,7 +33,7 @@ public class CinemaFilms {
 
         List<WebElement> allCinemas = driver.findElements(By.xpath("//*[@class='showtime-movie']//h1/a"));
 
-        System.out.println("Here all cinemas: "+allCinemas.getText());
+  //      System.out.println("Here all cinemas: "+allCinemas.getText());
 
     }
 

@@ -30,7 +30,7 @@ public class ToDoCinemaSeats {
 
         // explicit wait for certain element
         WebDriverWait waitFor = (new WebDriverWait(driver, 5));
-        waitFor.until(ExpectedConditions.presenceOfElementLocated(By.className("vkino-link vkino-link")));
+        waitFor.until(ExpectedConditions.presenceOfElementLocated(By.className("By.id('menu-top')")));
 
         // scroll to necessary block
         WebElement dambo = driver.findElement(By.cssSelector("#content-inner > div > ul > li:nth-child(3) > h1"));
@@ -65,7 +65,7 @@ public class ToDoCinemaSeats {
 
         // let's count a free places
         List<WebElement> freePlaces = driver.findElements(By.className("seat seat-color1"));
-        int freePlacesCount = occupiedPlaces.size();
+        int freePlacesCount = freePlaces.size();
         System.out.println("The number of free places is: "+ freePlacesCount);
 
         // let's count a percent of occupied places
