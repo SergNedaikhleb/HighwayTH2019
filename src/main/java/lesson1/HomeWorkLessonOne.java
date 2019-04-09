@@ -22,12 +22,10 @@ public class HomeWorkLessonOne {
         options.setExperimentalOption("prefs", prefs);
         WebDriver driver = new ChromeDriver(options);
 
-
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        // first of all, create negative test case
         WebElement emailField = driver.findElement(By.id("email"));
         emailField.sendKeys("neeshloshad@gmail.com");
         WebElement passwordField = driver.findElement(By.id("pass"));
