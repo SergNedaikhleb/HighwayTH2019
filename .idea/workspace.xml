@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="31" column="83" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="83" />
+            <state relative-caret-position="289">
+              <caret line="33" column="134" selection-start-line="33" selection-start-column="134" selection-end-line="33" selection-end-column="134" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="353">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
@@ -119,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson5/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java" />
       </list>
     </option>
   </component>
@@ -362,12 +361,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 19h 02m 13s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 19h 03m 08s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ToDoCurrency_myTest - 2019.04.07 at 19h 03m 49s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
@@ -392,6 +385,12 @@
     <history-entry file="ToDoCinemaSeats_(1) - 2019.04.09 at 19h 24m 43s.xml">
       <configuration name="ToDoCinemaSeats (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ToDoCinemaSeats_myTest - 2019.04.09 at 19h 26m 15s.xml">
+      <configuration name="ToDoCinemaSeats.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCinemaSeats_myTest_(1) - 2019.04.09 at 19h 26m 49s.xml">
+      <configuration name="ToDoCinemaSeats.myTest (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,8 +403,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2430279" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17609562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,12 +414,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28400597" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28400597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2600897" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2600897" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32796317" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.25112107" />
@@ -654,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="31" column="83" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -686,8 +676,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="353">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/CinemaFilms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="134" selection-start-line="33" selection-start-column="134" selection-end-line="33" selection-end-column="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

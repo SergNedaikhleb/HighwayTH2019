@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import javax.xml.bind.Element;
 import java.util.List;
 
-public class CinemaFilms {
+public class ClassWorkCinemaFilms {
 
     private WebDriver driver;
 
@@ -28,15 +28,13 @@ public class CinemaFilms {
         // go to the page
         driver.get("http://liniakino.com/showtimes/aladdin/");
         // explicit wait for certain element
-        WebDriverWait waitFor = (new WebDriverWait(driver, 5));
-        waitFor.until(ExpectedConditions.presenceOfElementLocated(By.id("menu-top")));
+        new WebDriverWait(driver, 5).until(ExpectedConditions.presenceOfElementLocated(By.id("menu-top")));
 
-        List<WebElement> allCinemas = driver.findElements(By.xpath("//*[@class='showtime-movie']//h1/a"));
+        List<WebElement> allCinemas = driver.findElements(By.xpath("//*[@class='showtime-movie']//h1/a")); // By.cssSelector("li.showtime-movie >h1> a")
 
   //      System.out.println("Here all cinemas: "+allCinemas.getText());
 
     }
-
 
     @AfterTest
     public void tearDown(){
