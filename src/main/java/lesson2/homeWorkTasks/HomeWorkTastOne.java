@@ -13,6 +13,9 @@ public class HomeWorkTastOne {
         System.out.print("w equals: ");
         int w = in.nextInt();
 
-        System.out.println("Division result is: " +(float)q/w);
+       int x = q/w;
+       int y = q%w;
+
+        System.out.println("Division result is: " +x+"."+y);
     }
 }
