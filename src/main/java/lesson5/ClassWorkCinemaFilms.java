@@ -9,8 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import javax.xml.bind.Element;
 import java.util.List;
 
 public class ClassWorkCinemaFilms {
@@ -29,14 +27,11 @@ public class ClassWorkCinemaFilms {
         driver.get("http://liniakino.com/showtimes/aladdin/");
         // explicit wait for certain element
         new WebDriverWait(driver, 5).until(ExpectedConditions.presenceOfElementLocated(By.id("menu-top")));
-
         List<WebElement> allCinemas = driver.findElements(By.xpath("//*[@class='showtime-movie']//h1/a")); // By.cssSelector("li.showtime-movie >h1> a")
-//
-//        String s = allCinemas.getText();
-//          // HERE I DON'T KNOW WHAT TO DO
-//        for (String s : allCinemas)
-//  //      System.out.println("Here all cinemas: "+allCinemas.getText());
 
+        for (WebElement temp : allCinemas) {
+            temp.getText();
+        }
     }
 
     @AfterTest
