@@ -31,8 +31,11 @@ public class ClassWorkCinemaFilms {
         new WebDriverWait(driver, 5).until(ExpectedConditions.presenceOfElementLocated(By.id("menu-top")));
 
         List<WebElement> allCinemas = driver.findElements(By.xpath("//*[@class='showtime-movie']//h1/a")); // By.cssSelector("li.showtime-movie >h1> a")
-
-  //      System.out.println("Here all cinemas: "+allCinemas.getText());
+//
+//        String s = allCinemas.getText();
+//          // HERE I DON'T KNOW WHAT TO DO
+//        for (String s : allCinemas)
+//  //      System.out.println("Here all cinemas: "+allCinemas.getText());
 
     }
 
