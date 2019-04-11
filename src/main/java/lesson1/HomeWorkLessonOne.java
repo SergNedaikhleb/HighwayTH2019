@@ -36,7 +36,7 @@ public class HomeWorkLessonOne {
         WebElement waitFor = (new WebDriverWait(driver, 8))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id("u_0_c")));
 
-        WebElement messages = driver.findElement(By.xpath("//*[@id='u_0_d']/a/div"));
+        WebElement messages = driver.findElement(By.xpath("//*[@name='mercurymessages']"));
         messages.click();
 
         WebElement waitForMenu = (new WebDriverWait(driver, 5))
