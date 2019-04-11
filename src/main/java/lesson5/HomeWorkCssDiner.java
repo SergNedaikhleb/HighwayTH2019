@@ -26,7 +26,7 @@ public class HomeWorkCssDiner {
 
         // go to the page and set the implicit wait
         driver.get("https://flukeout.github.io/");
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
         System.out.println("Now I'm gonna play the game "+driver.getTitle());
@@ -40,26 +40,33 @@ public class HomeWorkCssDiner {
         WebElement rowForAnswer = driver.findElement((By.xpath("//*[@class='input-strobe' and @type='text']")));
         WebElement enterButton = driver.findElement(By.xpath("//*[@class='enter-button' and contains(text() , 'enter')]"));
         WebElement placeholder = driver.findElement(By.xpath("//*[@placeholder='Type in a CSS selector']"));
+        WebElement chooseYourLevel =driver.findElement(By.xpath("//*[@class='level-menu-toggle-wrapper']"));
+        WebElement nextLevel = driver.findElement(By.xpath("[@class='completed current']"));
     //    WebElement succes = driver.findElement(())
 
         // define an explicit wait
-        WebDriverWait waitBeforeInputAnswer = (new WebDriverWait(driver, 3));
-        WebDriverWait waitAfterInputAnswer = (new WebDriverWait(driver, 3));
+        WebDriverWait waitBeforeInputAnswer = (new WebDriverWait(driver, 6));
+        WebDriverWait waitAfterInputAnswer = (new WebDriverWait(driver, 6));
 
         // let's play
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
-        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+   //     waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
         rowForAnswer.sendKeys("plate"); // CANNOT !!!!!!!!!!!
         enterButton.click();
-        waitAfterInputAnswer.until(ExpectedConditions.textToBePresentInElementValue(currentGameTask, "Select the bento boxes"));
+        chooseYourLevel.click();
+        nextLevel.click();
+    //    waitAfterInputAnswer.until(ExpectedConditions.textToBePresentInElementValue(gameLevel, "Level 2 of 32"));
 
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
-        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+ //       waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
         rowForAnswer.sendKeys("bento"); // CANNOT !!!!!!!!!!!
         enterButton.click();
-        waitAfterInputAnswer.until(ExpectedConditions.elementToBeClickable(placeholder));
+        enterButton.click();
+        chooseYourLevel.click();
+        nextLevel.click();
+     //   waitAfterInputAnswer.until(ExpectedConditions.textToBePresentInElementValue(gameLevel, "Level 3 of 32"));
 
 
     }
