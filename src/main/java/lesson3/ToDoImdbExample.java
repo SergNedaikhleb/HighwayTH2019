@@ -84,7 +84,7 @@ public class ToDoImdbExample {
         String userReview = userReviews.getText();
         int critic = Integer.parseInt(criticReview);
         int user = Integer.parseInt(userReview);
-        System.out.println(critic+user);
+        System.out.println("Total reviews: "+int(critic+user));
 
         // similar films
         WebElement similarFilms =driver.findElement(By.xpath("//*[@id='title_recs']/div[2]/div[12]//a/b"));
