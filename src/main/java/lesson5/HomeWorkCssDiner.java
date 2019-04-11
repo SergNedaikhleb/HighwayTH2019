@@ -70,3 +70,6 @@ public class HomeWorkCssDiner {
        // driver.quit();
     }
 }
+
+// https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
+// https://selenium-python.com/install-geckodriver
