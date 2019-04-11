@@ -30,7 +30,7 @@ public class ToDoCinemaSeats {
 
         // explicit wait for certain element
         WebDriverWait waitFor = (new WebDriverWait(driver, 5));
-        waitFor.until(ExpectedConditions.presenceOfElementLocated(By.className("By.id('menu-top')")));
+        waitFor.until(ExpectedConditions.presenceOfElementLocated(By.id("menu-top")));
 
         // scroll to necessary block
         WebElement dambo = driver.findElement(By.cssSelector("#content-inner > div > ul > li:nth-child(3) > h1"));
