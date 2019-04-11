@@ -1,10 +1,9 @@
 package lesson5;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -19,7 +18,7 @@ public class HomeWorkCssDiner {
 
     @BeforeTest
     public void setUp(){
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
     }
 
     @Test
@@ -45,20 +44,12 @@ public class HomeWorkCssDiner {
         // define an explicit wait
         WebDriverWait waitBeforeInputAnswer = (new WebDriverWait(driver, 3));
 
- //       JavascriptExecutor jse = (JavascriptExecutor)driver;
-
         // let's play
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
         waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
-        rowForAnswer.click();
-      //  rowForAnswer.sendKeys("plate"); // CANNOT !!!!!!!!!!!
-     //   enterButton.click();
-     //   jse.executeScript("arguments[0].value='plate'", rowForAnswer);
-      //  jse.executeScript("document.getElementById('ssn').value='555-55-5555';");
-
-
-
+        rowForAnswer.sendKeys("plate"); // CANNOT !!!!!!!!!!!
+        enterButton.click();
     }
 
     @AfterTest
