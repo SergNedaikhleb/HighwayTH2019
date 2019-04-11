@@ -36,13 +36,15 @@ public class HomeWorkCssDiner {
 
         // define some locators for this game
         WebElement currentGameTask = driver.findElement(By.className("order"));
-        WebElement gameLevel = driver.findElement(By.className("level-header"));
+        WebElement gameLevel = driver.findElement(By.className("level-text"));
         WebElement rowForAnswer = driver.findElement((By.xpath("//*[@class='input-strobe' and @type='text']")));
-        WebElement inputAnswer = driver.findElement((By.xpath("//*[@class='plus' and contains(text(),'+')]")));
         WebElement enterButton = driver.findElement(By.xpath("//*[@class='enter-button' and contains(text() , 'enter')]"));
+        WebElement placeholder = driver.findElement(By.xpath("//*[@placeholder='Type in a CSS selector']"));
+    //    WebElement succes = driver.findElement(())
 
         // define an explicit wait
         WebDriverWait waitBeforeInputAnswer = (new WebDriverWait(driver, 3));
+        WebDriverWait waitAfterInputAnswer = (new WebDriverWait(driver, 3));
 
         // let's play
         System.out.println("I am on "+gameLevel.getText());
@@ -50,11 +52,21 @@ public class HomeWorkCssDiner {
         waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
         rowForAnswer.sendKeys("plate"); // CANNOT !!!!!!!!!!!
         enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBePresentInElementValue(currentGameTask, "Select the bento boxes"));
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("bento"); // CANNOT !!!!!!!!!!!
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.elementToBeClickable(placeholder));
+
+
     }
 
     @AfterTest
     public void tearDown(){
 
-        driver.quit();
+       // driver.quit();
     }
 }
