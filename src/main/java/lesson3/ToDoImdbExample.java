@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -34,7 +36,7 @@ public class ToDoImdbExample {
         System.out.println("The year is: "+filmYear.getText());
 
         // duration
-        WebElement filmDuration = driver.findElement(By.cssSelector("div.titleBar > div.title_wrapper > div > span:nth-child(1)"));
+        WebElement filmDuration = driver.findElement(By.xpath("//*[@class='subtext']//*[@datetime='PT142M']"));
         System.out.println("The duration is: "+filmDuration.getText());
 
         // popularity
@@ -46,16 +48,18 @@ public class ToDoImdbExample {
         System.out.println("The genre is: "+filmGenre.getText());
 
         // trailer
-        WebElement filmTrailer = driver.findElement(By.xpath("//*[@id='title-overview-widget']//*[@title='Trailer']"));
-        filmTrailer.click();
-        System.out.println("The trailer is here: "+driver.getCurrentUrl());
-        driver.navigate().back();
+        WebElement filmTrailer = driver.findElement(By.xpath("//*[@id='title-overview-widget']/div[1]/div[3]/div[2]/a"));
+       // filmTrailer.click();
+       // (new WebDriverWait(driver, 8)).until(ExpectedConditions.visibilityOfElementLocated(By.className("scrollable-area")));
+        System.out.println("The trailer is here: "+filmTrailer.getAttribute("href"));
+      //  driver.navigate().back();
+       // (new WebDriverWait(driver, 8)).until(ExpectedConditions.textToBe(By.id("titleYear"), "(1994)"));
 
         // poster
-        WebElement filmPoster = driver.findElement(By.xpath("//*[@id='title-overview-widget']//*[@class='poster']"));
-        filmPoster.click();
-        System.out.println("The poster is here: "+driver.getCurrentUrl());
-        driver.navigate().back();
+        WebElement filmPoster = driver.findElement(By.className("poster"));
+      //  filmPoster.click();
+        System.out.println("The poster is here: "+filmPoster.getAttribute("href"));
+      //  driver.navigate().back();
 
         // director
         WebElement filmDirector = driver.findElement(By.xpath("//*[@id='title-overview-widget']//*[@class='credit_summary_item'][1]"));
