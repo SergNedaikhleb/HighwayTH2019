@@ -293,7 +293,7 @@ public class HomeWorkCssDiner {
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
         waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
-        rowForAnswer.sendKeys("apple:first-of-type");
+        rowForAnswer.sendKeys("plate:nth-of-type(even)");
         enterButton.click();
         waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 22 of 32"));
         if (gameLevel.getText().equals("Level 22 of 32")) {
@@ -302,15 +302,132 @@ public class HomeWorkCssDiner {
             System.out.println("I loose");
         }
 
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("plate:nth-of-type(2n+3)");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 23 of 32"));
+        if (gameLevel.getText().equals("Level 23 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("plate apple:only-of-type");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 24 of 32"));
+        if (gameLevel.getText().equals("Level 24 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("apple:last-of-type, orange:last-of-type");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 25 of 32"));
+        if (gameLevel.getText().equals("Level 25 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("bento:empty");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 26 of 32"));
+        if (gameLevel.getText().equals("Level 26 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("apple:not(.small)");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 27 of 32"));
+        if (gameLevel.getText().equals("Level 27 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("[for]");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 28 of 32"));
+        if (gameLevel.getText().equals("Level 28 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("plate[for]");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 29 of 32"));
+        if (gameLevel.getText().equals("Level 29 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
 
 
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("[for='Vitaly']");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 30 of 32"));
+        if (gameLevel.getText().equals("Level 30 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
 
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("[for^='Sa']");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 31 of 32"));
+        if (gameLevel.getText().equals("Level 31 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("[for*='obb']");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.xpath("//*[@class='winner']"), "You did it!"));
+//        if (gameLevel.getText().equals("Level 32 of 32")) {
+//            System.out.println("OK");
+//        }else {
+//            System.out.println("I loose");
+//        }
     }
 
     @AfterTest
     public void tearDown(){
 
-       // driver.quit();
+        driver.quit();
     }
 }
 

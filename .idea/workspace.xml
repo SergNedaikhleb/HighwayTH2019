@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="288" column="15" lean-forward="true" selection-start-line="288" selection-start-column="15" selection-end-line="288" selection-end-column="15" />
+            <state relative-caret-position="381">
+              <caret line="427" column="27" lean-forward="true" selection-start-line="419" selection-start-column="8" selection-end-line="423" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,8 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1974" />
-    <option name="y" value="26" />
+    <option name="x" value="2101" />
+    <option name="y" value="25" />
     <option name="width" value="1440" />
     <option name="height" value="985" />
   </component>
@@ -274,29 +274,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomeWorkCssDiner.myCssDinerTest">
-    <configuration name="ArraysSortEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.ArraysSortEx" />
+  <component name="RunManager" selected="TestNG.HomeWorkCssDiner (1)">
+    <configuration name="HomeWorkCssDiner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson5" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.HomeWorkCssDiner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeToDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.PracticeToDo" />
+    <configuration name="HomeWorkCssDiner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson5" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.HomeWorkCssDiner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeWorkCssDiner (1)" />
+        <item itemvalue="TestNG.HomeWorkCssDiner" />
         <item itemvalue="TestNG.HomeWorkCssDiner.myCssDinerTest" />
         <item itemvalue="TestNG.ToDoImdbExample.myTest" />
         <item itemvalue="TestNG.ToDoImdbExample" />
-        <item itemvalue="Application.PracticeToDo" />
-        <item itemvalue="Application.ArraysSortEx" />
       </list>
     </recent_temporary>
   </component>
@@ -386,21 +394,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 12m 35s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 15m 32s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 25m 16s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 27m 21s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 30m 55s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 34m 09s.xml">
       <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
     </history-entry>
@@ -416,6 +409,21 @@
     <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 13m 09s.xml">
       <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 24m 26s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 47m 07s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 48m 39s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 50m 12s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner - 2019.04.12 at 18h 58m 44s.xml">
+      <configuration name="HomeWorkCssDiner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,7 +435,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1974" y="26" width="1440" height="985" extended-state="0" />
+    <frame x="2101" y="25" width="1440" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25968435" />
@@ -439,12 +447,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33995327" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30140188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20911215" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34579438" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.14947683" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24763903" />
@@ -797,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="288" column="15" lean-forward="true" selection-start-line="288" selection-start-column="15" selection-end-line="288" selection-end-column="15" />
+        <state relative-caret-position="381">
+          <caret line="427" column="27" lean-forward="true" selection-start-line="419" selection-start-column="8" selection-end-line="423" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
