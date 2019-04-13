@@ -82,12 +82,22 @@ public class ToDoCurrency {
         WebDriverWait waitForNUB = (new WebDriverWait(driver, 8));
         waitForNUB.until(ExpectedConditions.presenceOfElementLocated(By.className("secondColl")));
         // write NUB currency exchange
-        WebElement buyDollarInNUB = driver.findElement(By.xpath("//*[@class='secondColl']//*[@class='content']//tbody//tr[9]"));
+        WebElement dollarInNUB = driver.findElement(By.xpath("//*[@class='secondColl']//*[@class='content']//tbody//tr[9]"));
         WebElement NUBName = driver.findElement(By.xpath("//*[@class='title_info']"));
         String NUB = NUBName.getText();
         System.out.println("This is: "+NUB);
-        System.out.println("NUB buy currency: "+buyDollarInNUB.getText());
+        System.out.println("NUB buy currency: "+dollarInNUB.getText());
         System.out.println("-------------------");
+
+
+        int a = Integer.parseInt(dollarPrivatbank.getText());
+        int b = Integer.parseInt(dollarUkrsibbank.getText());
+        int c = Integer.parseInt(dollarUniversalbank.getText());
+        int d = Integer.parseInt(dollarOschadbank.getText());
+        int e = Integer.parseInt(dollarInNUB.getText());
+
+        int minAnswer = Math.min(Math.min(a,b), Math.min(c,d));
+        System.out.println("the lowest value is: "+minAnswer);
 
         // Calculate values
 //        ArrayList<Integer>currencyValue = new ArrayList<>();
