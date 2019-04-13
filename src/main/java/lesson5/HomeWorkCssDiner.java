@@ -40,10 +40,6 @@ public class HomeWorkCssDiner {
         WebElement rowForAnswer = driver.findElement((By.xpath("//*[@class='input-strobe' and @type='text']")));
         WebElement enterButton = driver.findElement(By.xpath("//*[@class='enter-button' and contains(text() , 'enter')]"));
 
-//        WebElement chooseYourLevel =driver.findElement(By.xpath("//*[@class='level-menu-toggle-wrapper']"));
-//        WebElement nextLevel = driver.findElement(By.xpath("//*[@class='checkmark']"));
-//    //    WebElement succes = driver.findElement(())
-
         // define an explicit wait
         WebDriverWait waitBeforeInputAnswer = (new WebDriverWait(driver, 6));
         WebDriverWait waitAfterInputAnswer = (new WebDriverWait(driver, 6));
@@ -444,6 +440,3 @@ public class HomeWorkCssDiner {
         driver.quit();
     }
 }
-
-// https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
-// https://selenium-python.com/install-geckodriver
