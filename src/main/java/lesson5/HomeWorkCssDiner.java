@@ -55,7 +55,6 @@ public class HomeWorkCssDiner {
             System.out.println("OK");
         }else{
             System.out.println("I loose");
-
         }
 
         System.out.println("I am on "+gameLevel.getText());
@@ -76,11 +75,11 @@ public class HomeWorkCssDiner {
         rowForAnswer.sendKeys("#fancy");
         enterButton.click();
         waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 4 of 32"));
-            if (gameLevel.getText().equals("Level 4 of 32")) {
-                System.out.println("OK");
-            }else {
-                System.out.println("I loose");
-            }
+        if (gameLevel.getText().equals("Level 4 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
 
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
@@ -88,11 +87,11 @@ public class HomeWorkCssDiner {
         rowForAnswer.sendKeys("plate apple");
         enterButton.click();
         waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 5 of 32"));
-                if (gameLevel.getText().equals("Level 5 of 32")) {
-                    System.out.println("OK");
-                }else {
-                    System.out.println("I loose");
-                }
+        if (gameLevel.getText().equals("Level 5 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
 
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
@@ -100,11 +99,11 @@ public class HomeWorkCssDiner {
         rowForAnswer.sendKeys("#fancy pickle");
         enterButton.click();
         waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 6 of 32"));
-                    if (gameLevel.getText().equals("Level 6 of 32")) {
-                        System.out.println("OK");
-                    }else {
-                        System.out.println("I loose");
-                    }
+        if (gameLevel.getText().equals("Level 6 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
 
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
