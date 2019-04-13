@@ -39,10 +39,10 @@ public class HomeWorkCssDiner {
         WebElement gameLevel = driver.findElement(By.className("level-text"));
         WebElement rowForAnswer = driver.findElement((By.xpath("//*[@class='input-strobe' and @type='text']")));
         WebElement enterButton = driver.findElement(By.xpath("//*[@class='enter-button' and contains(text() , 'enter')]"));
-        WebElement placeholder = driver.findElement(By.xpath("//*[@placeholder='Type in a CSS selector']"));
-        WebElement chooseYourLevel =driver.findElement(By.xpath("//*[@class='level-menu-toggle-wrapper']"));
-        WebElement nextLevel = driver.findElement(By.xpath("//*[@class='checkmark']"));
-    //    WebElement succes = driver.findElement(())
+
+//        WebElement chooseYourLevel =driver.findElement(By.xpath("//*[@class='level-menu-toggle-wrapper']"));
+//        WebElement nextLevel = driver.findElement(By.xpath("//*[@class='checkmark']"));
+//    //    WebElement succes = driver.findElement(())
 
         // define an explicit wait
         WebDriverWait waitBeforeInputAnswer = (new WebDriverWait(driver, 6));
@@ -414,14 +414,28 @@ public class HomeWorkCssDiner {
         System.out.println("I am on "+gameLevel.getText());
         System.out.println("My task is: "+currentGameTask.getText());
         waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
+        rowForAnswer.sendKeys("[for$='ato']");
+        enterButton.click();
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.className("level-text"), "Level 32 of 32"));
+        if (gameLevel.getText().equals("Level 32 of 32")) {
+            System.out.println("OK");
+        }else {
+            System.out.println("I loose");
+        }
+
+        System.out.println("I am on "+gameLevel.getText());
+        System.out.println("My task is: "+currentGameTask.getText());
+        waitBeforeInputAnswer.until(ExpectedConditions.elementToBeClickable(rowForAnswer));
         rowForAnswer.sendKeys("[for*='obb']");
         enterButton.click();
-        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.xpath("//*[@class='winner']"), "You did it!"));
-//        if (gameLevel.getText().equals("Level 32 of 32")) {
-//            System.out.println("OK");
-//        }else {
-//            System.out.println("I loose");
-//        }
+        waitAfterInputAnswer.until(ExpectedConditions.textToBe(By.xpath("//*[@class='winner']/strong"), "You did it!"));
+
+        WebElement winGame = driver.findElement((By.xpath("//*[@class='winner']/strong")));
+        if (winGame.getText().equals("You did it!")) {
+            System.out.println("looks like I've completed this game!!");
+        }else {
+            System.out.println("I loose");
+        }
     }
 
     @AfterTest

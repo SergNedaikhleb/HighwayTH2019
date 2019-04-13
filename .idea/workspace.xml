@@ -21,20 +21,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="427" column="27" lean-forward="true" selection-start-line="419" selection-start-column="8" selection-end-line="423" selection-end-column="11" />
+            <state relative-caret-position="253">
+              <caret line="436" column="42" lean-forward="true" selection-start-line="436" selection-start-column="42" selection-end-line="436" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -142,8 +133,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2101" />
-    <option name="y" value="25" />
+    <option name="x" value="2068" />
+    <option name="y" value="4" />
     <option name="width" value="1440" />
     <option name="height" value="985" />
   </component>
@@ -153,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +231,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -274,8 +265,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomeWorkCssDiner (1)">
+  <component name="RunManager" selected="TestNG.HomeWorkCssDiner.myCssDinerTest">
     <configuration name="HomeWorkCssDiner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.HomeWorkCssDiner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWorkCssDiner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
@@ -327,23 +335,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoImdbExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.ToDoImdbExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ToDoImdbExample.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -364,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeWorkCssDiner.myCssDinerTest" />
+        <item itemvalue="TestNG.HomeWorkCssDiner (2)" />
         <item itemvalue="TestNG.HomeWorkCssDiner (1)" />
         <item itemvalue="TestNG.HomeWorkCssDiner" />
-        <item itemvalue="TestNG.HomeWorkCssDiner.myCssDinerTest" />
         <item itemvalue="TestNG.ToDoImdbExample.myTest" />
-        <item itemvalue="TestNG.ToDoImdbExample" />
       </list>
     </recent_temporary>
   </component>
@@ -394,21 +385,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 34m 09s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 17h 55m 01s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 00m 48s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 01m 39s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 13m 09s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 24m 26s.xml">
       <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
     </history-entry>
@@ -424,6 +400,21 @@
     <history-entry file="HomeWorkCssDiner - 2019.04.12 at 18h 58m 44s.xml">
       <configuration name="HomeWorkCssDiner" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HomeWorkCssDiner_(1) - 2019.04.12 at 19h 02m 59s.xml">
+      <configuration name="HomeWorkCssDiner (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.13 at 15h 33m 12s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.13 at 16h 03m 08s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_(2) - 2019.04.13 at 16h 03m 55s.xml">
+      <configuration name="HomeWorkCssDiner (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.13 at 16h 05m 38s.xml">
+      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,10 +426,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2101" y="25" width="1440" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="2068" y="4" width="1440" height="985" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25968435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26327115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,12 +437,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30140188" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7640187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34579438" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15654206" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.14947683" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24763903" />
@@ -798,15 +788,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="266">
           <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="427" column="27" lean-forward="true" selection-start-line="419" selection-start-column="8" selection-end-line="423" selection-end-column="11" />
+        <state relative-caret-position="253">
+          <caret line="436" column="42" lean-forward="true" selection-start-line="436" selection-start-column="42" selection-end-line="436" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
