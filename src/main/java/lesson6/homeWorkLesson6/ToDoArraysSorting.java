@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ToDoArraysSorting {
-
+ // I don't know what exact to choose. That is why I decided to implement three ways of sorting at once
     public static void main(String[] args) {
         Random gen = new Random();
         Scanner scanner = new Scanner(System.in);
