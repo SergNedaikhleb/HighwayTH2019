@@ -8,7 +8,7 @@ public class ToDoArraysSorting {
     public static void main(String[] args) {
         Random gen = new Random();
         Scanner scanner = new Scanner(System.in);
-        int[] a = new int[30];
+        int[] a = new int[20];
 
         for (int i = 0; i < a.length; i++)
             a[i] = gen.nextInt(100);
@@ -27,11 +27,9 @@ public class ToDoArraysSorting {
         {
             System.out.println("Merge sort:");
             printArray(a);
-            //MERGE SORT NEEDED
+            mergeSort( a, 0 , 0 , 0);
             printArray(a);
         }
-
-
     }
 
     private static void printArray(int[] a){
@@ -62,10 +60,54 @@ public class ToDoArraysSorting {
         if (i < right)
             quickSort(a, i, right);
     }
-//    private static void printArrays(int[] a, int tmp){
-//        System.out.println();
-//        for (int x = 0; x < a.length; x++){
-//            System.out.print(tmp);
+
+    private static void mergeSort(int[] a, int first, int mid, int last)
+    {
+        int[] temp = new int[last - first + 1];
+        int i = first; int j = mid + 1;
+        for(int k = first; k < last; k++)
+        {
+            // check if a sublist is done:
+            if(i > mid || j > last)
+            {
+                if(i > mid && j < last)
+                {
+                    while(j < last)
+                    {
+                        temp[k] = a[j];
+                        j++;
+                    }
+                }
+                else if(i < mid && j > last)
+                {
+                    while(i < mid)
+                    {
+                        temp[k] = a[i];
+                        i++;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+            }
+            else
+            {
+                if(a[i] < a[j])
+                {
+                    temp[k] = a[i];
+                    i++;
+                }
+                else
+                {
+                    temp[k] = a[j];
+                    j++;
+                }
+            }
         }
-//    }
-//}
+        for(int count = 0; count < temp.length; count++)
+        {
+            a[first + count] = temp[count];
+        }
+    }
+}

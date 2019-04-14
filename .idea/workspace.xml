@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="68" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,19 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -398,8 +385,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.ArraysLoopExample" />
+    <configuration name="BubbleSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.BubbleSorting" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
@@ -440,10 +427,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ToDoArraysSorting" />
+        <item itemvalue="Application.BubbleSorting" />
         <item itemvalue="Application.PracticeToDo" />
         <item itemvalue="Application.ArraysExample" />
         <item itemvalue="Application.ArrayPractice" />
-        <item itemvalue="Application.ArraysLoopExample" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +514,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23193473" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23166023" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.14947683" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24581724" />
@@ -860,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -895,10 +875,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="68" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
