@@ -8,7 +8,7 @@ public class ToDoArraysSorting {
     public static void main(String[] args) {
         Random gen = new Random();
         Scanner scanner = new Scanner(System.in);
-        int[] a = new int[20];
+        int[] a = new int[41];
 
         for (int i = 0; i < a.length; i++)
             a[i] = gen.nextInt(100);
