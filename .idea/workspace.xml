@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="341">
+              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -174,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysSortEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java" />
@@ -186,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java" />
       </list>
     </option>
@@ -311,15 +311,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
-              <item name="homeWorkLesson6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -877,15 +868,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="341">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

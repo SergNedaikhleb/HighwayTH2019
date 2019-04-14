@@ -15,6 +15,7 @@ public class ToDoArraysSorting {
 
         System.out.println("1. Quick Sort");
         System.out.println("2. Merge Sort");
+        System.out.println("3. Bubble Sort");
         System.out.println("what number do you want?");
         int choice = scanner.nextInt();
         if (choice == 1) {
@@ -23,11 +24,18 @@ public class ToDoArraysSorting {
             quickSort(a, 0, a.length - 1);
             printArray(a);
         }
-        else
+        else if (choice == 2)
         {
             System.out.println("Merge sort:");
             printArray(a);
             mergeSort( a, 0 , 0 , 0);
+            printArray(a);
+        }
+        else
+        {
+            System.out.println("Bubble sort:");
+            printArray(a);
+            bubbleSort(a, a.length);
             printArray(a);
         }
     }
@@ -110,4 +118,16 @@ public class ToDoArraysSorting {
             a[first + count] = temp[count];
         }
     }
-}
+
+    private static void bubbleSort(int[] a, int n) {
+
+        int temp = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < (n - i); j++) {
+                if (a[j - 1] > a[j]) {
+                    temp = a[j - 1];
+                    a[j - 1] = a[j];
+                    a[j] = temp;
+                }
+            }
+        }}}
