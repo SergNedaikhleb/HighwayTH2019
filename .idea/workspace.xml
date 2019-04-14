@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,60 +20,66 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="225" column="9" lean-forward="true" selection-start-line="221" selection-start-column="7" selection-end-line="225" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="975">
+              <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+            <state relative-caret-position="195">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysSortEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="50" column="108" selection-start-line="50" selection-start-column="108" selection-end-line="50" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+            <state relative-caret-position="446">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="68" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +88,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,6 +133,8 @@
       <find>nextLevel</find>
       <find>I passed</find>
       <find>wingame</find>
+      <find>position</find>
+      <find>choi</find>
     </findStrings>
     <replaceStrings>
       <replace>OK</replace>
@@ -156,19 +186,20 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson2/homeWorkTasks/HomeWorkTastOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCinemaSeats.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysSortEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java" />
       </list>
     </option>
   </component>
@@ -191,10 +222,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2148" />
-    <option name="y" value="15" />
-    <option name="width" value="1440" />
-    <option name="height" value="985" />
+    <option name="x" value="2042" />
+    <option name="y" value="17" />
+    <option name="width" value="1497" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,11 +325,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
+              <item name="homeWorkLesson6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -331,13 +371,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ToDoCurrency">
-    <configuration name="HelloUserConsoleInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.HelloUserConsoleInput" />
+  <component name="RunManager" selected="Application.ToDoArraysSorting">
+    <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ArrayPractice" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,83 +385,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkCssDiner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ArraysExample" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.HomeWorkCssDiner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkCssDiner.myCssDinerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ArraysLoopExample" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.HomeWorkCssDiner" />
-      <option name="METHOD_NAME" value="myCssDinerTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeToDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.PracticeToDo" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.ToDoCurrency" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoCurrency.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoArraysSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.homeWorkLesson6.ToDoArraysSorting" />
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson6.homeWorkLesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.ToDoCurrency" />
-      <option name="METHOD_NAME" value="myTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ToDoCurrency" />
-        <item itemvalue="TestNG.ToDoCurrency.myTest" />
-        <item itemvalue="Application.HelloUserConsoleInput" />
-        <item itemvalue="TestNG.HomeWorkCssDiner.myCssDinerTest" />
-        <item itemvalue="TestNG.HomeWorkCssDiner (2)" />
+        <item itemvalue="Application.ToDoArraysSorting" />
+        <item itemvalue="Application.PracticeToDo" />
+        <item itemvalue="Application.ArraysExample" />
+        <item itemvalue="Application.ArrayPractice" />
+        <item itemvalue="Application.ArraysLoopExample" />
       </list>
     </recent_temporary>
   </component>
@@ -447,34 +469,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 48m 39s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.12 at 18h 50m 12s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner - 2019.04.12 at 18h 58m 44s.xml">
-      <configuration name="HomeWorkCssDiner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_(1) - 2019.04.12 at 19h 02m 59s.xml">
-      <configuration name="HomeWorkCssDiner (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.13 at 15h 33m 12s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.13 at 16h 03m 08s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_(2) - 2019.04.13 at 16h 03m 55s.xml">
-      <configuration name="HomeWorkCssDiner (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWorkCssDiner_myCssDinerTest - 2019.04.13 at 16h 05m 38s.xml">
-      <configuration name="HomeWorkCssDiner.myCssDinerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.13 at 18h 59m 43s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 15h 13m 56s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.13 at 19h 05m 03s.xml">
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 15h 16m 47s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 15h 18m 55s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 02m 10s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 04m 41s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 05m 59s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 07m 02s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 13m 09s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 13m 35s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.14 at 16h 14m 08s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -488,10 +510,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2148" y="15" width="1440" height="985" extended-state="0" />
+    <frame x="2042" y="17" width="1497" height="906" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26327115" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,15 +522,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35747662" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2818533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23247664" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23193473" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.14947683" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24763903" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24581724" />
       <window_info anchor="bottom" id="SVN Repositories" order="11" weight="0.3295063" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -752,27 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/GoogleSearchHelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -780,41 +781,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysSortEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -832,23 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="225" column="9" lean-forward="true" selection-start-line="221" selection-start-column="7" selection-end-line="225" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -859,17 +812,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1810">
+          <caret line="290" column="54" lean-forward="true" selection-start-line="290" selection-start-column="36" selection-end-line="290" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="50" column="108" selection-start-line="50" selection-start-column="108" selection-end-line="50" selection-end-column="108" />
+        <state relative-caret-position="975">
+          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysSortEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraysLoopExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/PracticeToDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="68" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,6 +960,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

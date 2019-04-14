@@ -5,17 +5,16 @@ public class ArrayPractice {
 
     public static void main(String[] args) {
 
-        int [] ar = {2,3,-1,6,6,6,7,8,9,0,1111};
-        int max = ar[0]; //not best practice, cause int might be negative
-        int min = ar[0];
-        for(int i = 0; i != ar.length; i ++){
-            if(ar[i] > max){
-                max = ar[i];
-            }
-            if(ar[i] < min){
-                min = ar[i];
-            }
+        int ar[] = {2, 3, -1, 6, 6, 6, 7, 8, 9, 0, 1111};
+        int min = 0;
+        int max = 0;
+        for (int i : ar) {
+            if (i > max)
+                max = i;
+            if (i < min)
+                min = i;
         }
-        System.out.println("The min is: "+min + " and the max is: " + max);
+        System.out.println("Min int in array: " + min);
+        System.out.println("Max int in array: " + max);
     }
-}
+    }
