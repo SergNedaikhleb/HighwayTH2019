@@ -4,14 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +18,7 @@ public class LetsPlayAkinator {
 
     @BeforeTest
     public void setUp(){
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
 
     }
 
@@ -36,61 +34,90 @@ public class LetsPlayAkinator {
 
         // go to the page and set the implicit wait
         driver.get("https://ru.akinator.com/");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-        Scanner scanner = new Scanner(System.in);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
-        WebElement welcomeSign = driver.findElement(By.xpath("//*[@class='fc-choice-dialog']//h1"));
+
+
+
+        WebElement welcomeSign = driver.findElement(By.xpath("//*[@class='bubble-left bubble-home bubble']/p"));
         System.out.println("Now I'm gonna play the game "+welcomeSign.getText());
         System.out.println("================================================");
 
         // define some locators for this game
-        WebElement firstUserAgreement = driver.findElement(By.xpath("//*[@class='fc-button fc-button-consent']"));
+ //       WebElement firstUserAgreement = driver.findElement(By.xpath("//*[@class='fc-button fc-button-consent']"));
         WebElement startButton = driver.findElement(By.xpath("//*[@class='btn-play']"));
-        WebElement numberOfQuestion = driver.findElement((By.xpath("//*[@class='bubble-tail']/p")));
-        WebElement textOgQuestion = driver.findElement(By.xpath("//*[@class='question-text']"));
-        WebElement availableAnswers = driver.findElement((By.xpath("//*[@class='database-selection selector dialog-box']/ul")));
+  //      WebElement numberOfQuestion = driver.findElement((By.xpath("//*[@id='game_content']//div[1]/p")));
+  //      WebElement textOfQuestion = driver.findElement(By.xpath("//*[@class='question-text']"));
+  //      WebElement availableAnswers = driver.findElement((By.xpath("//*[@class='database-selection selector dialog-box']")));
+//        WebElement answerFirst =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
+//        WebElement answerSecond =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(2)")));
+//        WebElement answerThird =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(3)")));
+//        WebElement answerFourth =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
+//        WebElement answerFifth =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
+
+        // define an explicit wait
+ //       WebDriverWait waitBeforeClickAnswer = (new WebDriverWait(driver, 6));
+ //       WebDriverWait waitAfterClickAnswer = (new WebDriverWait(driver, 6));
+
+        // let's play
+     //   waitBeforeClickAnswer.until(ExpectedConditions.elementToBeClickable(startButton));
+        startButton.click();
+    //    waitAfterClickAnswer.until(ExpectedConditions.visibilityOf(availableAnswers));
+        WebElement numberOfQuestion = driver.findElement((By.xpath("//*[@id='game_content']//div[1]/p")));
+        System.out.println("I see the question number "+numberOfQuestion.getText());
+        WebElement textOfQuestion = driver.findElement(By.xpath("//*[@class='question-text']"));
+        System.out.println("His question is:"+ "\n" +textOfQuestion.getText());
+        WebElement availableAnswers = driver.findElement((By.xpath("//*[@class='database-selection selector dialog-box']")));
+        System.out.println("=================="+"\n" +"Offered answers: " +"\n"+"=================="+"\n" +availableAnswers.getText());
+//        if (numberOfQuestion.getText().equals("2")) {
+//            System.out.println("Answer next question");
+//        }else {
+//            System.out.println("Looks like you finished");
+//        }
+
+        // answers
         WebElement answerFirst =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
         WebElement answerSecond =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(2)")));
         WebElement answerThird =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(3)")));
         WebElement answerFourth =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
         WebElement answerFifth =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
 
-        // answers
+        Scanner scanner = new Scanner(System.in);
         int answ = scanner.nextInt();
-        if (answ == 1) {
+     //   String s = scanner.nextLine();
+     //   System.out.println("My answer is: "+answ);
+        switch(answ) {
+            case 1:
             System.out.println("My answer is: " + answerFirst.getText());
             answerFirst.click();
-        }else if (answ == 2){
+                break;
+            case 2:
             System.out.println("My answer is: " + answerSecond.getText());
             answerSecond.click();
-        }else if (answ == 3){
-            System.out.println("My answer is: " + answerThird);
+                break;
+            case 3:
+            System.out.println("My answer is: " + answerThird.getText());
             answerThird.click();
-        }else if (answ == 4){
-            System.out.println("My answer is: " + answerFourth);
+                break;
+            case 4:
+            System.out.println("My answer is: " + answerFourth.getText());
             answerFourth.click();
-        }else if (answ == 5){
-            System.out.println("My answer is: " + answerFifth);
+                break;
+            case 5:
+            System.out.println("My answer is: " + answerFifth.getText());
             answerFifth.click();
+                break;
+            default:
+                System.out.println("No answer");
         }
 
-        // define an explicit wait
-        WebDriverWait waitBeforeClickAnswer = (new WebDriverWait(driver, 6));
-        WebDriverWait waitAfterClickAnswer = (new WebDriverWait(driver, 6));
+        scanner.close();
+//        System.in.read();
+    }
 
-        // let's play
-        firstUserAgreement.click();
-        System.out.println("I see the question number "+numberOfQuestion.getText());
-        System.out.println("His question is: "+textOgQuestion.getText());
-        System.out.println("Offered answers: "+availableAnswers.getText());
-        if (numberOfQuestion.getText().equals("2")) {
-            System.out.println("Answer next question");
-        }else {
-            System.out.println("Looks like you finished");
-        }
-
-
+    @AfterTest
+    public void tearDown(){
+        driver.quit();
     }
 }
