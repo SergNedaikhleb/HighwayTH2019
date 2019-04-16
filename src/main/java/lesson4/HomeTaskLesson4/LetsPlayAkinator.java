@@ -85,10 +85,10 @@ public class LetsPlayAkinator {
         waitBeforeClickAnswer.until(ExpectedConditions.elementToBeClickable(By.id("a_yes")));
 //
 //        private static void canner () {
-            Scanner sc = new Scanner(System.in);
-            String ans = sc.nextLine();
+        Scanner sc = new Scanner(System.in);
+        String ans = sc.nextLine();
 
-            System.out.println("My answer is: " + ans);
+        System.out.println("My answer is: " + ans);
 //        if (ans.equals("1")) {
 //            System.out.println("My answer is: " + answerFirst.getText());
 //            answerFirst.click();
@@ -105,8 +105,8 @@ public class LetsPlayAkinator {
 //            System.out.println("My answer is: " + answerFifth.getText());
 //            answerFifth.click();
 //        }
-        }
-  //  }
+    }
+    //  }
 
     @AfterTest
     public void tearDown(){
