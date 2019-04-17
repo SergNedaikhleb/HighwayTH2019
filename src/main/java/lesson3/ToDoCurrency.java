@@ -139,18 +139,19 @@ public class ToDoCurrency {
         System.out.println("-------------------");
         String NUBTotal =dollarInNUB.getText();
         Double TotalNUB = Double.parseDouble(NUBTotal);
+        Double TotalNUBPerDollar = TotalNUB/100;
 
         // Print avarage currency between all the banks
-        System.out.println("The total average BUY currency is: "+(dolPrivatMin+uSibBankMin+unMin+oshadMin+TotalNUB)/5);
-        System.out.println("The total average SELL currency is: "+(dolPrivatMax+uSibBankMax+unMax+oshadMax+TotalNUB)/5);
+        System.out.println("The total average BUY currency is: "+(dolPrivatMin+uSibBankMin+unMin+oshadMin+TotalNUBPerDollar)/5);
+        System.out.println("The total average SELL currency is: "+(dolPrivatMax+uSibBankMax+unMax+oshadMax+TotalNUBPerDollar)/5);
 
         // print the most MINIMAL BUY value between all the banks
         double mi = Math.min(Math.min(dolPrivatMin,uSibBankMin), Math.min(unMin,oshadMin));
-        System.out.println("the most minimal buy value between all the banks is: "+Math.min(mi,TotalNUB));
+        System.out.println("the most MINIMAL BUY value between all the banks is: "+Math.min(mi,TotalNUBPerDollar));
 
         // print the most MAXIMAL SELL value between all the banks
         double ma = Math.max(Math.max(dolPrivatMax,uSibBankMax), Math.max(unMax,oshadMax));
-        System.out.println("the most MAXIMAL SELL value between all the banks is: "+Math.max(mi,TotalNUB));
+        System.out.println("the most MAXIMAL SELL value between all the banks is: "+Math.max(mi,TotalNUBPerDollar));
     }
 
     @AfterTest

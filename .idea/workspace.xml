@@ -4,8 +4,6 @@
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/LetsPlayAkinator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/LetsPlayAkinator.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="855">
               <caret line="71" column="112" selection-start-line="71" selection-start-column="107" selection-end-line="71" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,11 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="191" column="27" lean-forward="true" selection-start-line="191" selection-start-column="27" selection-end-line="191" selection-end-column="27" />
-              <folding>
-                <element signature="e#9223#9224#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="140" column="55" lean-forward="true" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -59,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -174,8 +169,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2023" />
-    <option name="y" value="17" />
+    <option name="x" value="2092" />
+    <option name="y" value="47" />
     <option name="width" value="1690" />
     <option name="height" value="955" />
   </component>
@@ -185,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -273,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ToDoCurrency">
+  <component name="RunManager" selected="TestNG.ToDoCurrency.myTest">
     <configuration name="LetsPlayAkinator (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -363,8 +358,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ToDoCurrency" />
         <item itemvalue="TestNG.ToDoCurrency.myTest" />
+        <item itemvalue="TestNG.ToDoCurrency" />
         <item itemvalue="TestNG.LetsPlayAkinator.letsGuessBillGates" />
         <item itemvalue="TestNG.LetsPlayAkinator" />
         <item itemvalue="TestNG.LetsPlayAkinator (3)" />
@@ -393,34 +388,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 16m 21s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 16m 39s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 16m 57s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 17m 17s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 17m 51s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 20m 45s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 27m 01s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 30m 46s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 41m 28s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 43m 39s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 46m 35s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency - 2019.04.16 at 20h 47m 59s.xml">
+      <configuration name="ToDoCurrency" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 49m 58s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 51m 22s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 52m 22s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 53m 21s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 54m 11s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 56m 48s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -434,10 +429,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2023" y="17" width="1690" height="955" extended-state="0" />
+    <frame x="2092" y="47" width="1690" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19282238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19525547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,12 +441,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.342615" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4661017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17216118" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17191283" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3329298" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24455206" />
@@ -762,16 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/Akinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/Akinator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -814,18 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="71" column="112" selection-start-line="71" selection-start-column="107" selection-end-line="71" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6047#6048#0" expanded="true" />
-            <element signature="e#6076#6077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson2/homeWorkTasks/HomeWorkTastOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -840,6 +814,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="71" column="112" selection-start-line="71" selection-start-column="107" selection-end-line="71" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6047#6048#0" expanded="true" />
+            <element signature="e#6076#6077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson2/homeWorkTasks/HomeWorkTaskThree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -850,17 +836,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="191" column="27" lean-forward="true" selection-start-line="191" selection-start-column="27" selection-end-line="191" selection-end-column="27" />
-          <folding>
-            <element signature="e#9223#9224#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="140" column="55" lean-forward="true" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
         </state>
       </provider>
     </entry>
