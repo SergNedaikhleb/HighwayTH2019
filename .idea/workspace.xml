@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,43 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="71" column="112" selection-start-line="71" selection-start-column="107" selection-end-line="71" selection-end-column="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6047#6048#0" expanded="true" />
-                <element signature="e#6076#6077#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="346">
+              <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="140" column="55" lean-forward="true" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson2/homeWorkTasks/HomeWorkTaskThree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/MinAndMaxValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="438">
+              <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArrayToString.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraysSortEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HelloUserConsoleInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/IncrementDecrementExample.java" />
@@ -147,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/Akinator.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java" />
       </list>
     </option>
   </component>
@@ -169,8 +145,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2092" />
-    <option name="y" value="47" />
+    <option name="x" value="2128" />
+    <option name="y" value="19" />
     <option name="width" value="1690" />
     <option name="height" value="955" />
   </component>
@@ -388,9 +364,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 41m 28s.xml">
-      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ToDoCurrency_myTest - 2019.04.16 at 20h 43m 39s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
@@ -418,6 +391,9 @@
     <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 56m 48s.xml">
       <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ToDoCurrency_myTest - 2019.04.17 at 13h 58m 04s.xml">
+      <configuration name="ToDoCurrency.myTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +405,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2092" y="47" width="1690" height="955" extended-state="0" />
+    <frame x="2569" y="12" width="1690" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19525547" />
@@ -441,12 +417,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4661017" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35714287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17191283" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28208232" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3329298" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24455206" />
@@ -656,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/HomeWorkCssDiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1810">
@@ -816,7 +785,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/HomeTaskLesson4/LetsPlayAkinator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="15">
           <caret line="71" column="112" selection-start-line="71" selection-start-column="107" selection-end-line="71" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -842,8 +811,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="140" column="55" lean-forward="true" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
+        <state relative-caret-position="438">
+          <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
         </state>
       </provider>
     </entry>

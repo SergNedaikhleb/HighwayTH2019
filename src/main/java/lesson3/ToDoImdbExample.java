@@ -82,18 +82,18 @@ public class ToDoImdbExample {
         // calculate total review
         String criticReview = criticReviews.getText();
         String userReview = userReviews.getText();
-        int critic = Integer.parseInt(criticReview);
-        int user = Integer.parseInt(userReview);
+        double critic = Double.parseDouble(criticReview);
+        double user = Double.parseDouble(userReview);
         System.out.println("Total reviews: "+(critic+user));
 
-        // similar films
-        WebElement similarFilms =driver.findElement(By.xpath("//*[@id='title_recs']/div[2]/div[12]//a/b"));
-        WebElement nextSimilarFilmButton =driver.findElement((By.cssSelector("#title_recs > div.rec_overviews > div:nth-child(1) > div.rec_actions > div.rec_next_btn ")));
-        System.out.println("First similar film "+similarFilms.getText());
-        nextSimilarFilmButton.click();
-        System.out.println("Second similar film "+similarFilms.getText());
-        nextSimilarFilmButton.click();
-        System.out.println("Third similar film "+similarFilms.getText());
+        // three similar cinemas
+        WebElement firstSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][1]"));
+        WebElement secondSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][2]"));
+        WebElement thirdSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][3]"));
+        System.out.println("First similar film "+firstSimilarFilm.getAttribute("title"));
+        System.out.println("Second similar film "+secondSimilarFilm.getAttribute("title"));
+        System.out.println("Third similar film "+thirdSimilarFilm.getAttribute("title"));
+
     }
 
     @AfterTest
