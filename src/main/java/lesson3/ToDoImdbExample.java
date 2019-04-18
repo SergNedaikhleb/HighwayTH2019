@@ -80,8 +80,10 @@ public class ToDoImdbExample {
         System.out.println("Critic Reviews amount: "+criticReviews.getText());
 
         // calculate total review
-        String criticReview = criticReviews.getText();
-        String userReview = userReviews.getText();
+        String criticReviewPre = criticReviews.getText();
+        String criticReview = criticReviewPre.substring(4,8);
+        String userReviewPre = userReviews.getText();
+        String userReview = userReviewPre.substring(4,8);
         double critic = Double.parseDouble(criticReview);
         double user = Double.parseDouble(userReview);
         System.out.println("Total reviews: "+(critic+user));
