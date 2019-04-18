@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
+import static java.lang.Double.sum;
+
 public class ToDoImdbExample {
 
     private WebDriver driver;
@@ -38,7 +40,7 @@ public class ToDoImdbExample {
         System.out.println("The duration is: "+filmDuration.getText());
 
         // popularity
-        WebElement filmPopularity = driver.findElement(By.xpath("//*[@class='titleReviewBarSubItem']//*[@class='popularityUpOrFlat']"));
+        WebElement filmPopularity = driver.findElement(By.xpath("//*[@class='ratingValue']"));
         System.out.println("The duration is: "+filmPopularity.getText());
 
         // genre
@@ -78,21 +80,21 @@ public class ToDoImdbExample {
         System.out.println("Critic Reviews amount: "+criticReviews.getText());
 
         // calculate total review
-        String criticReviewPre = criticReviews.getText();
-        String criticReview = criticReviewPre.substring(4,8);
-        String userReviewPre = userReviews.getText();
-        String userReview = userReviewPre.substring(4,8);
-        double critic = Double.parseDouble(criticReview);
-        double user = Double.parseDouble(userReview);
-        System.out.println("Total reviews: "+(critic+user));
+//        String criticReviewPre = criticReviews.getText();
+//        String criticReview = criticReviewPre.substring(4,8);
+//        String userReviewPre = userReviews.getText();
+//        String userReview = userReviewPre.substring(4,8);
+//        double critic = Double.parseDouble(criticReview);
+//        double user = Double.parseDouble(userReview);
+//        System.out.println("Total reviews: "+critic, user));
 
         // three similar cinemas
-        WebElement firstSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][1]"));
-        WebElement secondSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][2]"));
-        WebElement thirdSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][3]"));
-        System.out.println("First similar film "+firstSimilarFilm.getAttribute("title"));
-        System.out.println("Second similar film "+secondSimilarFilm.getAttribute("title"));
-        System.out.println("Third similar film "+thirdSimilarFilm.getAttribute("title"));
+        WebElement firstSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][1]/a/img"));
+        WebElement secondSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][2]/a/img"));
+        WebElement thirdSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][3]/a/img"));
+        System.out.println("First similar film is: "+firstSimilarFilm.getAttribute("title"));
+        System.out.println("Second similar film is: "+secondSimilarFilm.getAttribute("title"));
+        System.out.println("Third similar film is: "+thirdSimilarFilm.getAttribute("title"));
 
     }
 
