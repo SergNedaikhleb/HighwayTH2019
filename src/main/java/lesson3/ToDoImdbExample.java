@@ -80,13 +80,15 @@ public class ToDoImdbExample {
         System.out.println("Critic Reviews amount: "+criticReviews.getText());
 
         // calculate total review
-//        String criticReviewPre = criticReviews.getText();
-//        String criticReview = criticReviewPre.substring(4,8);
-//        String userReviewPre = userReviews.getText();
-//        String userReview = userReviewPre.substring(4,8);
-//        double critic = Double.parseDouble(criticReview);
-//        double user = Double.parseDouble(userReview);
-//        System.out.println("Total reviews: "+critic, user));
+        String criticReviewPre = criticReviews.getText();
+        String criticReview = criticReviewPre.substring(0,4);
+        String userReviewPre = userReviews.getText();
+        String userReview = userReviewPre.substring(0,6);
+        String userRevievPoint = userReview.replace(",","");
+
+        double critic = Double.parseDouble(criticReview);
+        double user = Double.parseDouble(userRevievPoint);
+        System.out.println("Total reviews: "+(critic+user));
 
         // three similar cinemas
         WebElement firstSimilarFilm =driver.findElement(By.xpath("//*[@class='rec_item'][1]/a/img"));
