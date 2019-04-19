@@ -10,12 +10,19 @@ public class MinAndMaxValue {
         int b = in.nextInt();
         int c = in.nextInt();
         int d = in.nextInt();
+        int x =0;
+        int y = 0;
 
-        int minAnswer = Math.min( Math.min(a,b), Math.min(c,d) );
-        System.out.println("the lowest value is: "+minAnswer);
+        if (a<b &a<c&a<d)x =a;
+        else if (b<a&b<c&b<d)x =b;
+        else if (c<a&c<b&c<d)x =c;
+        else if (d<b&d<c&d<a)x =d;
 
-        int maxAnswer = Math.max( Math.min(a,b), Math.max(c,d) );
-        System.out.println("the maximum value is: "+maxAnswer);
-    }
-}
+        if (a>b &a>c&a>d)y =a;
+        else if (b>a&b>c&b>d)y =b;
+        else if (c>a&c>b&c>d)y =c;
+        else if (d>b&d>c&d>a)y =d;
 
+        System.out.println("the lowest value is: "+x);
+        System.out.println("the maximum value is: "+y);
+    }}
