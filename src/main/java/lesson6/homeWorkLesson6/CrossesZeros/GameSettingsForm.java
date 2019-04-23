@@ -45,59 +45,59 @@ public class GameSettingsForm extends JFrame {
         JButton jButtonSetSettings = new JButton("Начать игру!");
         add(jButtonSetSettings);
         setVisible(true);
-
-        radioButtonModeAgainstAI.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (radioButtonModeAgainstAI.isSelected()) {
-                    radioButtonSimpleLevel.setVisible(true);
-                    radioButtonNotSimpleLevel.setVisible(true);
-                }
-            }
-        });
-
-        radioButtonModeTwoPlayers.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (radioButtonModeTwoPlayers.isSelected()) {
-                    radioButtonSimpleLevel.setVisible(false);
-                    radioButtonNotSimpleLevel.setVisible(false);
-                }
-            }
-        });
-
-        radioButtonModeTwoComputers.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (radioButtonModeTwoPlayers.isSelected()) {
-                    radioButtonSimpleLevel.setVisible(true);
-                    radioButtonNotSimpleLevel.setVisible(true);
-                }
-            }
-        });
-
-        jButtonSetSettings.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                MainGameField gameField = MainGameField.getInstance();
-          //      if (jTextFieldLinesCount.getText().isEmpty()) {
-                    gameField.linesCount = 3;
+//
+//        radioButtonModeAgainstAI.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                if (radioButtonModeAgainstAI.isSelected()) {
+//                    radioButtonSimpleLevel.setVisible(true);
+//                    radioButtonNotSimpleLevel.setVisible(true);
 //                }
-//                else {
-//                    try {
-//                        gameField.linesCount = Integer.parseInt(jTextFieldLinesCount.getText());
-//                    }
-//                    catch (NumberFormatException ex) {
-//                        System.out.println("Необходимо ввести целое число!");
-//                    }
+//            }
+//        });
+//
+//        radioButtonModeTwoPlayers.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                if (radioButtonModeTwoPlayers.isSelected()) {
+//                    radioButtonSimpleLevel.setVisible(false);
+//                    radioButtonNotSimpleLevel.setVisible(false);
 //                }
-                gameField.startNewGame();
-                if (radioButtonModeAgainstAI.isSelected() || radioButtonModeTwoComputers.isSelected()) {
-                    gameField.gameMode = 2;
-                }
-             //   gameField.aiLevel = jRadiobutton.getValue();
-                gameSettingsForm.setVisible(false);
-            }
-        });
+//            }
+//        });
+//
+//        radioButtonModeTwoComputers.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                if (radioButtonModeTwoPlayers.isSelected()) {
+//                    radioButtonSimpleLevel.setVisible(true);
+//                    radioButtonNotSimpleLevel.setVisible(true);
+//                }
+//            }
+//        });
+//
+//        jButtonSetSettings.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                MainGameField gameField = MainGameField.getInstance();
+//          //      if (jTextFieldLinesCount.getText().isEmpty()) {
+//                    gameField.linesCount = 3;
+////                }
+////                else {
+////                    try {
+////                        gameField.linesCount = Integer.parseInt(jTextFieldLinesCount.getText());
+////                    }
+////                    catch (NumberFormatException ex) {
+////                        System.out.println("Необходимо ввести целое число!");
+////                    }
+////                }
+//                gameField.startNewGame();
+//                if (radioButtonModeAgainstAI.isSelected() || radioButtonModeTwoComputers.isSelected()) {
+//                    gameField.gameMode = 2;
+//                }
+//             //   gameField.aiLevel = jRadiobutton.getValue();
+//                gameSettingsForm.setVisible(false);
+//            }
+//        });
     }
 }
