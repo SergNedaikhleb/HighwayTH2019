@@ -7,6 +7,7 @@ public class TicTacToe {
     public static final String USER_SIGN = "X";
     public static final String USER_SIGN_SECOND = "O";
     public static final String AI_SIGN = "O";
+    public static final String AI_SIGN_SECOND = "X";
     public static final String NOT_SIGN = "*";
     public static int aiLevel = 0;
     public static final int BATTLEFIELD = 3;
@@ -73,9 +74,9 @@ public class TicTacToe {
         initField();
         while (true) {
             printField();
-            userShot(USER_SIGN, 0);
+            userShot(AI_SIGN_SECOND, 0);
             count++;
-            if (checkWin(USER_SIGN)) {
+            if (checkWin(AI_SIGN_SECOND)) {
                 System.out.println("Comp 1 WIN!!!");
                 printField();
                 break;
@@ -109,11 +110,11 @@ public class TicTacToe {
                 break;
             }
             case 2: {
-                modeTwoPlayers();
+                modeTwoComputers();
                 break;
             }
             case 3: {
-                modeTwoComputers();
+                modeTwoPlayers();
                 break;
             }
             case 4: {
@@ -145,7 +146,7 @@ public class TicTacToe {
                 modeAgainstAI();
                 break;
             }
-            case 5: {
+            case 3: {
                 System.exit(0);
                 break;
             }

@@ -47,6 +47,8 @@ public class MainGameField extends JPanel {
         setVisible(false);
         player1 = new Player("X");
         player2 = new Player("O");
+//        aiOne = new AI("X");
+//        aiOne = new AI("O");
 
 
         addMouseListener(new MouseAdapter() {
@@ -64,6 +66,10 @@ public class MainGameField extends JPanel {
                             break;
                         }
                         case 2: {
+                            twoComputersMode();
+                            break;
+                        }
+                        case 3: {
                             modeAgainstAI();
                             break;
                         }
@@ -119,6 +125,36 @@ public class MainGameField extends JPanel {
         }
     }
 
+    void twoComputersMode() {
+        AI aiOne = new AI("X", aiLevel, player1.sign);
+        AI aiTwo = new AI("O", aiLevel, player2.sign);
+        if (!gameOver) {
+            if (aiOne.shot(x, y)) {
+                if (aiOne.win()) {
+                    System.out.println("AI first WIN!!!");
+                    gameOver = true;
+                    gameOverMessage = "AI first WIN!!!";
+                }
+                if (isFieldFull()) {
+                    gameOver = true;
+                    gameOverMessage = "DRAW!!!";
+                }
+                repaint();
+                if (!gameOver) {
+                    aiTwo.shot(x, y);
+                }
+                if (aiTwo.win()) {
+                    System.out.println("AI Second WIN!!!");
+                    gameOver = true;
+                    gameOverMessage = "AI Second WIN!!!";
+                }
+                repaint();
+                if (isFieldFull() && !aiTwo.win()) {
+                    gameOver = true;
+                    gameOverMessage = "DRAW!!!";
+                }}}
+            }
+
     void modeAgainstAI() {
         Player player = new Player("X");
         AI ai = new AI("O", aiLevel, player.sign);
@@ -148,6 +184,8 @@ public class MainGameField extends JPanel {
                     gameOverMessage = "DRAW!!!";
                 }
             }
+
+
         }
     }
 
