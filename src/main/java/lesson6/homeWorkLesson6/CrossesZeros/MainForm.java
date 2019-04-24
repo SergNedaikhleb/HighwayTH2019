@@ -13,7 +13,7 @@ public class MainForm extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         MainGameField gameField = MainGameField.getInstance();
 
-        // Создаём панель для кнопок
+        // Create panel for buttons
         JPanel buttonPanel = new JPanel(new GridLayout());
         add(gameField, BorderLayout.CENTER);
         add(buttonPanel, BorderLayout.SOUTH);

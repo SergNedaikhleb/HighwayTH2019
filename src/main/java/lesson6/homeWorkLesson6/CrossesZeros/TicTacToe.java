@@ -122,7 +122,7 @@ public class TicTacToe {
                 break;
             }
             default: {
-                System.out.println("Ну что ты пишешь?!");
+                System.out.println("No");
             }
         }
     }
@@ -200,7 +200,7 @@ public class TicTacToe {
         int y = -1;
         boolean ai_win = false;
         boolean user_win = false;
-        // Находим выигрышный ход
+        // search new turn for win
         if (aiLevel == 2) {
             for (int i = 0; i < BATTLEFIELD; i++) {
                 for (int j = 0; j < BATTLEFIELD; j++) {
@@ -216,7 +216,7 @@ public class TicTacToe {
                 }
             }
         }
-        // Блокировка хода пользователя, если он побеждает на следующем ходу
+        // block users turn, if it wins on the next turn
         if (aiLevel > 0) {
             if (!ai_win) {
                 for (int i = 0; i < BATTLEFIELD; i++) {
@@ -264,12 +264,12 @@ public class TicTacToe {
 
     public static boolean checkWin(String sign) {
         for (int i = 0; i < BATTLEFIELD; i++) {
-            // проверяем строки
+            // check rows
             if (checkLine(i, 0, 0, 1, sign)) return true;
-            // проверяем столбцы
+            // check columns
             if (checkLine(0, i, 1, 0, sign)) return true;
         }
-        // проверяем диагонали
+        // check diago
         if (checkLine(0, 0, 1, 1, sign)) return true;
         if (checkLine(0, BATTLEFIELD - 1, 1, -1, sign)) return true;
         return false;
@@ -277,7 +277,7 @@ public class TicTacToe {
 
 
     public static boolean checkWin2(String sign) {
-        // проверка по строкам
+        // check rows
         {
             for (int i = 0; i < BATTLEFIELD; i++) {
                 if (field[i][0] == sign && field[i][1] == sign && field[i][2] == sign) {
@@ -285,7 +285,7 @@ public class TicTacToe {
                 }
             }
         }
-        // проверка по столбцам
+        // check columns
         {
             for (int j = 0; j < BATTLEFIELD; j++) {
                 if (field[0][j] == sign && field[1][j] == sign && field[2][j] == sign) {
@@ -293,7 +293,7 @@ public class TicTacToe {
                 }
             }
         }
-        // проверка диагоналей
+        // check diago
         {
             if (field[0][0] == sign && field[1][1] == sign && field[2][2] == sign) {
                 return true;

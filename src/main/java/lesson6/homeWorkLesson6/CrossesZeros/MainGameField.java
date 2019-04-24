@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.Scanner;
 
 public class MainGameField extends JPanel {
     private static MainGameField instance = null;
@@ -47,9 +46,6 @@ public class MainGameField extends JPanel {
         setVisible(false);
         player1 = new Player("X");
         player2 = new Player("O");
-//        aiOne = new AI("X");
-//        aiOne = new AI("O");
-
 
         addMouseListener(new MouseAdapter() {
             @Override
@@ -216,12 +212,12 @@ public class MainGameField extends JPanel {
 
     public boolean checkWin(String sign) {
         for (int i = 0; i < linesCount; i++) {
-            // проверяем строки
+            // check rows
             if (checkLine(i, 0, 0, 1, sign)) return true;
-            // проверяем столбцы
+            // check columns
             if (checkLine(0, i, 1, 0, sign)) return true;
         }
-        // проверяем диагонали
+        // check diago
         if (checkLine(0, 0, 1, 1, sign)) return true;
         if (checkLine(0, linesCount - 1, 1, -1, sign)) return true;
         return false;

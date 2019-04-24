@@ -19,7 +19,7 @@ public class AI extends AGamer {
         y = -1;
         boolean ai_win = false;
         boolean user_win = false;
-        // Находим выигрышный ход
+        // Find successful turn
         if (aiLevel == 2) {
             for (int i = 0; i < gameField.linesCount; i++) {
                 for (int j = 0; j < gameField.linesCount; j++) {
@@ -35,7 +35,7 @@ public class AI extends AGamer {
                 }
             }
         }
-        // Блокировка хода пользователя, если он побеждает на следующем ходу
+        // block users turn, if it wins next turn
         if (aiLevel > 0) {
             if (!ai_win) {
                 for (int i = 0; i < gameField.linesCount; i++) {

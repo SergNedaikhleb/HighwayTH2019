@@ -1,7 +1,6 @@
 package lesson6.homeWorkLesson6.CrossesZeros;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -19,24 +18,14 @@ public class GameSettingsForm extends JFrame {
         add(radioButtonModeTwoPlayers);
         JRadioButton radioButtonModeTwoComputers = new JRadioButton("Компутер против компутера");
         add(radioButtonModeTwoComputers);
-     //   radioButtonModeTwoPlayers.setSelected(true);
         JRadioButton radioButtonModeAgainstAI = new JRadioButton("Игрок против компьютера");
         add(radioButtonModeAgainstAI);
         JLabel jLabelAILevel = new JLabel("Выберите уровень Комплюхтера:");
         add(jLabelAILevel);
-         JRadioButton jRadiobutton = new JRadioButton();
-     //   add(jSlider);
-     //   jSlider.setAlignmentX(LEFT_ALIGNMENT);
-     //   jSlider.setVisible(false);
         ButtonGroup buttonGroup = new ButtonGroup();
         buttonGroup.add(radioButtonModeAgainstAI);
         buttonGroup.add(radioButtonModeTwoPlayers);
         buttonGroup.add(radioButtonModeTwoComputers);
-     //   JLabel jLabelLinesCount = new JLabel("Размер поля (по умолчанию 3 на 3): ");
-      //  add(jLabelLinesCount);
-      //  JTextField jTextFieldLinesCount = new JTextField();
-     //   jTextFieldLinesCount.setMaximumSize(new Dimension(100, 20));
-     //   add(jTextFieldLinesCount);
         JRadioButton radioButtonSimpleLevel = new JRadioButton("Простой");
         JRadioButton radioButtonNotSimpleLevel = new JRadioButton("Сложный");
         add(radioButtonSimpleLevel);
@@ -81,22 +70,12 @@ public class GameSettingsForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 MainGameField gameField = MainGameField.getInstance();
-          //      if (jTextFieldLinesCount.getText().isEmpty()) {
                     gameField.linesCount = 3;
-//                }
-//                else {
-//                    try {
-//                        gameField.linesCount = Integer.parseInt(jTextFieldLinesCount.getText());
-//                    }
-//                    catch (NumberFormatException ex) {
-//                        System.out.println("Необходимо ввести целое число!");
-//                    }
-//                }
+
                 gameField.startNewGame();
                 if (radioButtonModeAgainstAI.isSelected() || radioButtonModeTwoComputers.isSelected()) {
                     gameField.gameMode = 2;
                 }
-             //   gameField.aiLevel = jRadiobutton.getValue();
                 gameSettingsForm.setVisible(false);
             }
         });
