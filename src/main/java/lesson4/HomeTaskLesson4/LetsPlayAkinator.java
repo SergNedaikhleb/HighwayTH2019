@@ -4,40 +4,19 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
-import java.io.*;
-import java.io.Console;
+import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
+
 public class LetsPlayAkinator {
-    public WebDriver driver;
 
-    @BeforeTest
-    public void setUp(){
-        driver = new ChromeDriver();
-
-    }
-
-    @Test
-    public void letsGuessBillGates() {
-
-        // disable notifications
-//        Map<String, Object> prefs = new HashMap<String, Object>();
-//        prefs.put("profile.default_content_setting_values.notifications", 2);
-//        FirefoxOptions options = new ChromeOptions();
-//        options.setExperimentalOption("prefs", prefs);
-//        WebDriver driver = new FirefoxDriver(options);
-
-        // go to the page and set the implicit wait
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
         driver.get("https://ru.akinator.com/");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 
         WebElement welcomeSign = driver.findElement(By.xpath("//*[@class='bubble-left bubble-home bubble']/p"));
@@ -45,71 +24,64 @@ public class LetsPlayAkinator {
         System.out.println("================================================");
 
         // define some locators for this game
-        //       WebElement firstUserAgreement = driver.findElement(By.xpath("//*[@class='fc-button fc-button-consent']"));
         WebElement startButton = driver.findElement(By.xpath("//*[@class='btn-play']"));
-        //      WebElement numberOfQuestion = driver.findElement((By.xpath("//*[@id='game_content']//div[1]/p")));
-        //      WebElement textOfQuestion = driver.findElement(By.xpath("//*[@class='question-text']"));
-        //      WebElement availableAnswers = driver.findElement((By.xpath("//*[@class='database-selection selector dialog-box']")));
-//        WebElement answerFirst =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
-//        WebElement answerSecond =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(2)")));
-//        WebElement answerThird =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(3)")));
-//        WebElement answerFourth =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
-//        WebElement answerFifth =driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
 
-        // define an explicit wait
-        WebDriverWait waitBeforeClickAnswer = (new WebDriverWait(driver, 6));
-        //       WebDriverWait waitAfterClickAnswer = (new WebDriverWait(driver, 6));
+        if (startButton.isEnabled()) {
+            startButton.click();
+        }else{
+            WebDriverWait wait  = (new WebDriverWait(driver, 6));
+                    wait.until(ExpectedConditions.elementToBeClickable(startButton));
+        }
 
-        // let's play
-        //   waitBeforeClickAnswer.until(ExpectedConditions.elementToBeClickable(startButton));
-        startButton.click();
-        //    waitAfterClickAnswer.until(ExpectedConditions.visibilityOf(availableAnswers));
-        WebElement numberOfQuestion = driver.findElement((By.xpath("//*[@id='game_content']//div[1]/p")));
-        System.out.println("I see the question number " + numberOfQuestion.getText());
-        WebElement textOfQuestion = driver.findElement(By.xpath("//*[@class='question-text']"));
-        System.out.println("His question is:" + "\n" + textOfQuestion.getText());
-        WebElement availableAnswers = driver.findElement((By.xpath("//*[@class='database-selection selector dialog-box']")));
-        System.out.println("==================" + "\n" + "Offered answers: " + "\n" + "==================" + "\n" + availableAnswers.getText() + "\n" + "==================");
-//        if (numberOfQuestion.getText().equals("2")) {
-//            System.out.println("Answer next question");
-//        }else {
-//            System.out.println("Looks like you finished");
-//        }
+        while (5 == driver.findElements(By.xpath("//div[@class='database-selection selector dialog-box']/ul/li")).size()) {
+            WebElement question = driver.findElement(By.xpath("//p[@class='question-text']"));
+            System.out.println("???  "+question.getText()+"   ???");
+            List<WebElement> answrsElems = driver.findElements(By.xpath("//div[@class='database-selection selector dialog-box']/ul/li"));
+            int answrNumber = 0;
+            for(WebElement answrsElem : answrsElems){
+                answrNumber++;
+                System.out.println("----------------" + "\n" +answrNumber + "." + answrsElem.getText());
+            }
 
-        // answers
-        WebElement answerFirst = driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
-        WebElement answerSecond = driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(2)")));
-        WebElement answerThird = driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(3)")));
-        WebElement answerFourth = driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
-        WebElement answerFifth = driver.findElement((By.cssSelector("div.database-selection.selector.dialog-box > ul > li:nth-child(1)")));
-        waitBeforeClickAnswer.until(ExpectedConditions.elementToBeClickable(By.id("a_yes")));
-//
-//        private static void canner () {
-        Scanner sc = new Scanner(System.in);
-        String ans = sc.nextLine();
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("==================" + "\n"+"My answer is: ");
+            int userInput = scanner.nextInt();
 
-        System.out.println("My answer is: " + ans);
-//        if (ans.equals("1")) {
-//            System.out.println("My answer is: " + answerFirst.getText());
-//            answerFirst.click();
-//        }else if (answer.matches("2")){
-//            System.out.println("My answer is: " + answerSecond.getText());
-//            answerSecond.click();
-//        }else if (answer.matches("3")){
-//            System.out.println("My answer is: " + answerThird.getText());
-//            answerThird.click();
-//        }else if (answer.matches("4")){
-//            System.out.println("My answer is: " + answerFourth.getText());
-//            answerFourth.click();
-//        }else if (answer.matches("5")){
-//            System.out.println("My answer is: " + answerFifth.getText());
-//            answerFifth.click();
-//        }
-    }
-    //  }
+            switch (userInput) {
+                case 1: answrsElems.get(0).click();
+                    break;
+                case 2: answrsElems.get(1).click();
+                    break;
+                case 3: answrsElems.get(2).click();
+                    break;
+                case 4: answrsElems.get(3).click();
+                    break;
+                case 5: answrsElems.get(4).click();
+                    break;
+                default:  System.out.println("Please, try again");
+                    break;
+            }
+            WebDriverWait wait = new WebDriverWait(driver, 5);
+            wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[@id='div-overlay']/img"))));
 
-    @AfterTest
-    public void tearDown(){
-        driver.quit();
-    }
-}
+        }
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("And the result is: ");
+        System.out.println("=============="+ "\n"+driver.findElement(By.xpath("//span[@class='proposal-title']")).getText()+ "\n"+"============");
+        System.out.println("Is it your subject??");
+        System.out.println(" 1 - YES,"+ "\n"+" 2 - NO");
+        int userInput2 = scanner.nextInt();
+
+        if (userInput2 == 1) {
+            System.out.println("Congratulations and goodbye!");
+            driver.quit();
+        }
+        else if (userInput2 == 2) {
+            System.out.println("Oh, it's a pity. Try again later");
+                    driver.quit();
+        }
+        else {
+            System.out.println("I don't know what you want, good bye.");
+            driver.quit();
+        }
+    }}
