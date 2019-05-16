@@ -5,6 +5,15 @@ public class Box {
     public double height; // высота
     public double depth; // глубина
 
+    public Box(int width, int height, int depth) {
+        this.width = width; //this - указатель на текущий объект.
+        this.height = height;
+        this.depth = depth;
+    }
+
+    public Box(){
+
+    }
     // Objects
     public void volume() { // метод - это действия над классом
 
