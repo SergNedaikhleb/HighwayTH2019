@@ -1,22 +1,25 @@
 package lesson7;
 
 public class MainForBox {
-    public static void main(String[] args){
-     //   Вох mybox = new Вох() ; // создать объект mybox класса Вох
 
 
-        Box cube = new Box(); // объект класса BOX
-        Box parallelepiped = new Box(); // объект класса BOX
+    public static void main(String[] args) {
 
-        cube.width = 10;
-        cube.height = 10;
-        cube.depth = 10;
-        parallelepiped.width = 10;
-        parallelepiped.height = 20;
-        parallelepiped.depth = 15;
+        Box myBox = new Box(10, 10, 10);
+        Box cube = new Box(10, 10, 10);
+        Box parallelepiped = new Box(10, 20, 15);
 
-        cube.volume(); //объем объекта КУБ
-        parallelepiped.volume(); //объем объекта КУБ
-        cube.setDim(1,2,3);
+        cube.setDim(10, 10, 10);
+        parallelepiped.setDim(10, 20, 15);
+
+        cube.getVolume();
+        parallelepiped.getVolume();
+
+
+
+        HeavyBox heavyBox = new HeavyBox();
+
+        Box box = new HeavyBox();
+
     }
 }

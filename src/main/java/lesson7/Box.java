@@ -12,15 +12,11 @@ public class Box {
     }
 
     public Box(){
-
     }
-    // Objects
-    public void volume() { // метод - это действия над классом
 
-
-        System.out.print("Oбъeм равен ");
-       System.out.println(width *height *depth);
-}
+    public double getVolume()  {
+        return width * height * depth;
+    }
 
     public void setDim(int w, int h, int d) {
         width = w;
@@ -28,4 +24,7 @@ public class Box {
         depth = d;
     }
 
+    public void printInfo(){
+        System.out.println("Объем коробки: "+getVolume());
+    }
 }
