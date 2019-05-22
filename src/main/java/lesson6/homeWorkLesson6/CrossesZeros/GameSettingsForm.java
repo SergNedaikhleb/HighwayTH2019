@@ -36,48 +36,48 @@ public class GameSettingsForm extends JFrame {
         add(jButtonSetSettings);
         setVisible(true);
 
-        radioButtonModeAgainstAI.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (radioButtonModeAgainstAI.isSelected()) {
-                    radioButtonSimpleLevel.setVisible(true);
-                    radioButtonNotSimpleLevel.setVisible(true);
-                }
+//        radioButtonModeAgainstAI.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                if (radioButtonModeAgainstAI.isSelected()) {
+//                    radioButtonSimpleLevel.setVisible(true);
+//                    radioButtonNotSimpleLevel.setVisible(true);
+//                }
+//            }
+//        });
+//
+//        radioButtonModeTwoPlayers.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                if (radioButtonModeTwoPlayers.isSelected()) {
+//                    radioButtonSimpleLevel.setVisible(false);
+//                    radioButtonNotSimpleLevel.setVisible(false);
+//                }
+//            }
+//        });
+//
+//        radioButtonModeTwoComputers.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                if (radioButtonModeTwoComputers.isSelected()) {
+//                    radioButtonSimpleLevel.setVisible(true);
+//                    radioButtonNotSimpleLevel.setVisible(true);
+//                }
+//            }
+//        });
+//
+//        jButtonSetSettings.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                MainGameField gameField = MainGameField.getInstance();
+//                    gameField.linesCount = 3;
+//
+//                gameField.startNewGame();
+//                if (radioButtonModeAgainstAI.isSelected() || radioButtonModeTwoComputers.isSelected()) {
+//                    gameField.gameMode = 2;
+//                }
+//                gameSettingsForm.setVisible(false);
             }
-        });
-
-        radioButtonModeTwoPlayers.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (radioButtonModeTwoPlayers.isSelected()) {
-                    radioButtonSimpleLevel.setVisible(false);
-                    radioButtonNotSimpleLevel.setVisible(false);
-                }
-            }
-        });
-
-        radioButtonModeTwoComputers.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (radioButtonModeTwoComputers.isSelected()) {
-                    radioButtonSimpleLevel.setVisible(true);
-                    radioButtonNotSimpleLevel.setVisible(true);
-                }
-            }
-        });
-
-        jButtonSetSettings.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                MainGameField gameField = MainGameField.getInstance();
-                    gameField.linesCount = 3;
-
-                gameField.startNewGame();
-                if (radioButtonModeAgainstAI.isSelected() || radioButtonModeTwoComputers.isSelected()) {
-                    gameField.gameMode = 2;
-                }
-                gameSettingsForm.setVisible(false);
-            }
-        });
-    }
+   //     });
+//    }
 }

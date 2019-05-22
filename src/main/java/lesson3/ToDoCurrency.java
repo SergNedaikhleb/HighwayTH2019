@@ -131,7 +131,7 @@ public class ToDoCurrency {
         WebDriverWait waitForNUB = (new WebDriverWait(driver, 8));
         waitForNUB.until(ExpectedConditions.presenceOfElementLocated(By.className("secondColl")));
         // write NUB currency exchange
-        WebElement dollarInNUB = driver.findElement(By.xpath("//*[@class='secondColl']//*[@class='content']//tbody//tr[9]/td[5]"));
+        WebElement dollarInNUB = driver.findElement(By.xpath("//*[@class='secondColl']//*[@class='content']//table[4]/tbody/tr[2]/td[5]"));
         WebElement NUBName = driver.findElement(By.xpath("//*[@class='title_info']"));
         String NUB = NUBName.getText();
         System.out.println("This is: "+NUB);

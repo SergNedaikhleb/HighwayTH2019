@@ -30,7 +30,7 @@ public class MainForm extends JFrame {
         btnStart.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(btnStart.getText());
+              //  System.out.println(btnStart.getText());
                 GameSettingsForm gameSettingsForm = new GameSettingsForm();
             }
         });
