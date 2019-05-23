@@ -12,7 +12,7 @@ public class LoginPage {
     private By loginBth = By.cssSelector("#login");
 
 
-    public void open(){ driver.get("https://google.com"); }
+    public void open(){ driver.get("https://trello.com/login"); }
 
     public void login(String email, String password){
         driver.findElement(emailFld).clear();
