@@ -1,13 +1,7 @@
 package lesson11.homeTaskLesson11;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
-
-import java.util.concurrent.TimeUnit;
 import core.BrowserFactory;
 import trello.pages.LoginPage;
 
@@ -41,7 +35,6 @@ public class TrelloLoginLogout extends BrowserFactory {
         driver.findElement(By.xpath("//*[@class='pop-over-list'][3]")).click();
         assertEquals("Logged out of Trello", driver.getTitle());
         assertEquals("Thanks for using Trello.", driver.findElement(By.tagName("h1")).getText());
-
 
     }
     @AfterTest
