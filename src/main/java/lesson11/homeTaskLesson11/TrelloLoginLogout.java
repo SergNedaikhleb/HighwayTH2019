@@ -3,6 +3,8 @@ package lesson11.homeTaskLesson11;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
@@ -21,7 +23,7 @@ public class TrelloLoginLogout extends BrowserFactory {
        assertNotNull(loginPage);
        assertEquals(driver.getCurrentUrl(), "https://trello.com/login");
        assertEquals("Log in to Trello", driver.findElement(By.tagName("h1")).getText());
-       loginPage.login("sergey.nedaikhleb@gmail.com", "");
+       loginPage.login("sergey.nedaikhleb@gmail.com", "*****");
     }
 
     @Test(priority=2)
@@ -34,19 +36,19 @@ public class TrelloLoginLogout extends BrowserFactory {
     }
 
     @Test(priority=3)
-    public void checkBoardsAmount() {
-        driver.findElement(By.xpath("//*[@id='content']//div[2]//div[2]//div[1]/div/ul/li")).click();
-        assertEquals("Menu", driver.findElement(By.className(".board-menu-header-content")).getText());
-//        driver.navigate().back();
+    public void Logout() {
+        assertEquals("Log Out", driver.findElement(By.className("js-logout")).getText());
+        driver.findElement(By.xpath("//*[@class='pop-over-list'][3]")).click();
+        assertEquals("Logged out of Trello", driver.getTitle());
+        assertEquals("Thanks for using Trello.", driver.findElement(By.tagName("h1")).getText());
+
 
     }
-
-
     @AfterTest
     public void tearDown() {
 
-   //     driver.manage().deleteAllCookies();
-    //    driver.quit();
+        driver.manage().deleteAllCookies();
+        driver.quit();
     }
 
     }
