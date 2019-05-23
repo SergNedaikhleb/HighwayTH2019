@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="358">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+            <state relative-caret-position="346">
+              <caret line="24" column="86" lean-forward="true" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson11/ChromeMobile.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/ExceptionExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/SrackExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/MyTestWithListener.java" />
@@ -205,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/Pages.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java" />
       </list>
     </option>
@@ -228,8 +227,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2033" />
-    <option name="y" value="32" />
+    <option name="x" value="1986" />
+    <option name="y" value="13" />
     <option name="width" value="1657" />
     <option name="height" value="955" />
   </component>
@@ -339,42 +338,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TrelloLoginLogout.checkLogin">
-    <configuration name="TrelloLoginLogout (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson11.homeTaskLesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson11.homeTaskLesson11" />
-      <option name="MAIN_CLASS_NAME" value="lesson11.homeTaskLesson11.TrelloLoginLogout" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrelloLoginLogout (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson11.homeTaskLesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson11.homeTaskLesson11" />
-      <option name="MAIN_CLASS_NAME" value="lesson11.homeTaskLesson11.TrelloLoginLogout" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrelloLoginLogout (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TrelloLoginLogout">
+    <configuration name="TrelloLoginLogout (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
         <pattern>
@@ -408,6 +373,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrelloLoginLogout.checkBoard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11.homeTaskLesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson11.homeTaskLesson11" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.homeTaskLesson11.TrelloLoginLogout" />
+      <option name="METHOD_NAME" value="checkBoard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrelloLoginLogout.checkBoardsAmount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11.homeTaskLesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson11.homeTaskLesson11" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.homeTaskLesson11.TrelloLoginLogout" />
+      <option name="METHOD_NAME" value="checkBoardsAmount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrelloLoginLogout.checkLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -428,11 +429,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TrelloLoginLogout.checkLogin" />
-        <item itemvalue="TestNG.TrelloLoginLogout (3)" />
-        <item itemvalue="TestNG.TrelloLoginLogout (2)" />
         <item itemvalue="TestNG.TrelloLoginLogout" />
-        <item itemvalue="TestNG.TrelloLoginLogout (5)" />
+        <item itemvalue="TestNG.TrelloLoginLogout.checkLogin" />
+        <item itemvalue="TestNG.TrelloLoginLogout.checkBoardsAmount" />
+        <item itemvalue="TestNG.TrelloLoginLogout.checkBoard" />
+        <item itemvalue="TestNG.TrelloLoginLogout (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -458,35 +459,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrelloLoginLogout_(5) - 2019.05.23 at 13h 34m 40s.xml">
-      <configuration name="TrelloLoginLogout (5)" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout_checkBoardsAmount - 2019.05.23 at 14h 43m 40s.xml">
+      <configuration name="TrelloLoginLogout.checkBoardsAmount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout - 2019.05.23 at 13h 34m 52s.xml">
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 44m 06s.xml">
       <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout - 2019.05.23 at 13h 47m 20s.xml">
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 44m 30s.xml">
       <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout - 2019.05.23 at 13h 47m 52s.xml">
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 45m 20s.xml">
       <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout_checkLogin - 2019.05.23 at 13h 48m 53s.xml">
-      <configuration name="TrelloLoginLogout.checkLogin" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 47m 58s.xml">
+      <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout_checkLogin - 2019.05.23 at 13h 53m 00s.xml">
-      <configuration name="TrelloLoginLogout.checkLogin" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 49m 08s.xml">
+      <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout_(2) - 2019.05.23 at 13h 57m 43s.xml">
-      <configuration name="TrelloLoginLogout (2)" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 50m 00s.xml">
+      <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout_checkLogin - 2019.05.23 at 13h 58m 12s.xml">
-      <configuration name="TrelloLoginLogout.checkLogin" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout_checkBoardsAmount - 2019.05.23 at 14h 50m 20s.xml">
+      <configuration name="TrelloLoginLogout.checkBoardsAmount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout_(3) - 2019.05.23 at 13h 59m 56s.xml">
-      <configuration name="TrelloLoginLogout (3)" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 50m 33s.xml">
+      <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TrelloLoginLogout_checkLogin - 2019.05.23 at 14h 03m 52s.xml">
-      <configuration name="TrelloLoginLogout.checkLogin" configurationId="TestNG" />
+    <history-entry file="TrelloLoginLogout - 2019.05.23 at 14h 51m 11s.xml">
+      <configuration name="TrelloLoginLogout" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -499,7 +500,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2033" y="32" width="1657" height="955" extended-state="0" />
+    <frame x="1984" y="13" width="1657" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18187462" />
@@ -511,7 +512,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3716707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38014528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -959,20 +960,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+        <state relative-caret-position="240">
+          <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoImdbExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="346">
+          <caret line="24" column="86" lean-forward="true" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -981,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="358">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
