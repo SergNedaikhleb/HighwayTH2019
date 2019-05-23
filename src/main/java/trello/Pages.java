@@ -1,6 +1,5 @@
 package trello;
 
-import org.openqa.selenium.WebDriver;
 import trello.pages.BoardsPage;
 import trello.pages.LoginPage;
 

@@ -12,9 +12,7 @@ public class LoginPage {
     private By loginBth = By.cssSelector("#login");
 
 
-    public void open(){
-        driver.get("https://trello.com/login");
-    }
+    public void open(){ driver.get("https://google.com"); }
 
     public void login(String email, String password){
         driver.findElement(emailFld).clear();
@@ -22,6 +20,6 @@ public class LoginPage {
         driver.findElement(passwordFld).clear();
         driver.findElement(passwordFld).sendKeys(password);
         driver.findElement(loginBth).click();
-        new WebDriverWait(driver, 10).until(ExpectedConditions.urlToBe("https://trello.com/loliktest4/boards"));
+        new WebDriverWait(driver, 10).until(ExpectedConditions.urlToBe("/boards"));
     }
 }
