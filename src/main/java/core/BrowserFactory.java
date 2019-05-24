@@ -26,10 +26,10 @@ public class BrowserFactory {
     }
 
 
-   // @AfterSuite
-  //  public void tearDown(){
-  //      driver.quit();
- //   }
+    @AfterSuite
+    public void tearDown(){
+        driver.quit();
+    }
 
 
     public void click(By by){

@@ -19,7 +19,7 @@ public class TrelloCreateDelete extends BrowserFactory {
         assertNotNull(loginPage);
         assertEquals(driver.getCurrentUrl(), "https://trello.com/login");
         assertEquals("Log in to Trello", driver.findElement(By.tagName("h1")).getText());
-        loginPage.login("sergey.nedaikhleb@gmail.com", "zelenka666");
+        loginPage.login("sergey.nedaikhleb@gmail.com", "*****");
     }
 
     @Test(priority=2)
