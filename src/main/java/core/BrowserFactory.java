@@ -25,11 +25,11 @@ public class BrowserFactory {
         driver = new EventFiringWebDriver(driver).register(new DriverEventListener());
     }
 
-//
-//    @AfterSuite
-//    public void tearDown(){
-//        driver.quit();
-//    }
+
+    @AfterSuite
+    public void tearDown(){
+        driver.quit();
+    }
 
 
     public void click(By by){
