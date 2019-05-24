@@ -10,32 +10,18 @@ import java.util.regex.Pattern;
 
 public class JustForFun {
 
-    public static void main(String[] args) {
+    public static final String EXAMPLE_TEST = "This is my small exa1234mple "
+                    + "string which I'm going to " + "use for pattern matching.";
 
-        WebDriver driver = new ChromeDriver();
+            public static void main(String[] args) {
+                System.out.println(EXAMPLE_TEST.matches("[0-9]"));
+              //  String[] splitString = (EXAMPLE_TEST.split("\\s+"));
+              //  System.out.println(splitString.length);// should be 14
+              //  for (String string : splitString) {
+               //     System.out.println(string);
+                }
+                // replace all whitespace with tabs
+            //    System.out.println(EXAMPLE_TEST.replaceAll("\\s+", "\t"));
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        //driver.manage().window().setPosition(new Point(1920,0));
-        //driver.manage().window().setSize(new Dimension(1920/2,1080));
-        driver.get("http://unsplash.com/");
-        driver.findElement(By.className("_3q0cO _3FYu1")).click();
-        for(int i=0;i<30;i++)
-        {
-            driver.findElement(By.tagName("body")).sendKeys("123");
-
-        }
-        //driver.getPageSource();
-        Pattern p = Pattern.compile("/?photo=(.*?)");
-        Matcher m = p.matcher(driver.getPageSource());
-        while(m.find())
-        {
-
-            driver.get("https://unsplash.com"+m.group());
-            System.out.println(m.group());
-        }
-
-        driver.quit();
-    }
 
 }

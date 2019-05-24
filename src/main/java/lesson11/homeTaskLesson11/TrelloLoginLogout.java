@@ -17,12 +17,11 @@ public class TrelloLoginLogout extends BrowserFactory {
        assertNotNull(loginPage);
        assertEquals(driver.getCurrentUrl(), "https://trello.com/login");
        assertEquals("Log in to Trello", driver.findElement(By.tagName("h1")).getText());
-       loginPage.login("sergey.nedaikhleb@gmail.com", "*****");
+       loginPage.login("sergey.nedaikhleb@gmail.com", "zelenka666");
     }
 
     @Test(priority=2)
     public void checkBoard() {
-       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         assertEquals("Personal Boards", driver.findElement(By.xpath("//*[@id='content']//h3")).getText());
         driver.findElement(By.className("member-initials")).click();
         assertEquals("SergNedaikhleb (sergnedaikhleb)", driver.findElement(By.className("pop-over-header-title")).getText());
@@ -37,11 +36,4 @@ public class TrelloLoginLogout extends BrowserFactory {
         assertEquals("Thanks for using Trello.", driver.findElement(By.tagName("h1")).getText());
 
     }
-    @AfterTest
-    public void tearDown() {
-
-        driver.manage().deleteAllCookies();
-        driver.quit();
-    }
-
     }
