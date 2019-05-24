@@ -4,9 +4,7 @@ import core.BrowserFactory;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import trello.pages.LoginPage;
-
 import java.util.concurrent.TimeUnit;
-
 import static org.testng.AssertJUnit.*;
 
 public class TrelloCreateDelete extends BrowserFactory {

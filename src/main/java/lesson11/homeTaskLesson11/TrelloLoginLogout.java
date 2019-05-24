@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.testng.annotations.*;
 import core.BrowserFactory;
 import trello.pages.LoginPage;
-
 import static org.testng.AssertJUnit.*;
 
 public class TrelloLoginLogout extends BrowserFactory {
