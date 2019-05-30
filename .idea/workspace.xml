@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson13/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson13/Movie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +21,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="25">
+              <caret line="23" column="68" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/SortExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,10 +156,10 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson12/SearchForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson12/TestSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson12/TreeSetExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson13/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson13/SortExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/CrossesZeros/GameSettingsForm.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson13/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java" />
       </list>
     </option>
@@ -246,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GetRequest">
+  <component name="RunManager" selected="TestNG.GetRequest.tryIt">
     <configuration name="GetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -258,6 +282,24 @@
       <option name="PACKAGE_NAME" value="lesson13" />
       <option name="MAIN_CLASS_NAME" value="lesson13.GetRequest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest.tryIt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson13" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.GetRequest" />
+      <option name="METHOD_NAME" value="tryIt" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -316,30 +358,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrelloPublicPrivate" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson11.homeTaskLesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson11.homeTaskLesson11" />
-      <option name="MAIN_CLASS_NAME" value="lesson11.homeTaskLesson11.TrelloPublicPrivate" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetRequest.tryIt" />
         <item itemvalue="TestNG.GetRequest" />
         <item itemvalue="TestNG.TrelloLoginLogout" />
         <item itemvalue="TestNG.TrelloAddToFavourite" />
         <item itemvalue="TestNG.TrelloAddToFavourite.trelloLogin" />
-        <item itemvalue="TestNG.TrelloPublicPrivate" />
       </list>
     </recent_temporary>
   </component>
@@ -365,15 +390,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrelloPublicPrivate - 2019.05.24 at 21h 00m 46s.xml">
-      <configuration name="TrelloPublicPrivate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TrelloPublicPrivate - 2019.05.24 at 21h 01m 51s.xml">
-      <configuration name="TrelloPublicPrivate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TrelloAddToFavourite - 2019.05.24 at 21h 20m 29s.xml">
-      <configuration name="TrelloAddToFavourite" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TrelloAddToFavourite - 2019.05.24 at 21h 22m 17s.xml">
       <configuration name="TrelloAddToFavourite" configurationId="TestNG" />
     </history-entry>
@@ -394,6 +410,15 @@
     </history-entry>
     <history-entry file="TrelloLoginLogout - 2019.05.30 at 18h 58m 05s.xml">
       <configuration name="TrelloLoginLogout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetRequest - 2019.05.30 at 19h 19m 33s.xml">
+      <configuration name="GetRequest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetRequest - 2019.05.30 at 19h 30m 21s.xml">
+      <configuration name="GetRequest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetRequest_tryIt - 2019.05.30 at 19h 31m 12s.xml">
+      <configuration name="GetRequest.tryIt" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -418,12 +443,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.294686" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25120774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28502417" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2415459" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.24637681" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2447665" />
@@ -885,16 +910,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/Movie.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="356">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/SortExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="120">
           <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -902,17 +927,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="104">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="25">
+          <caret line="23" column="68" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

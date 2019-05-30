@@ -5,6 +5,8 @@ public class Movie implements Comparable {
     public String title;
     public int year;
 
+    public Movie(String title, double score, int year){ }
+
     public Movie(String title, double score) {
         this.title = title;
         this.score = score;
