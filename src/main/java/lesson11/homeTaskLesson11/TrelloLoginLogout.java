@@ -8,7 +8,7 @@ import static org.testng.AssertJUnit.*;
 
 public class TrelloLoginLogout extends BrowserFactory {
 
-    @Test(priority=1)
+    @Test(priority= 1)
     public void checkLogin() {
 
        LoginPage loginPage = new LoginPage();
