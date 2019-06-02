@@ -2,8 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloAddToFavourite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloAddToFavourite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/DriverEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson1/GoogleSearchHelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson1/HelloUserConsoleInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson1/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson1/HomeWorkLessonOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson1/SeleniumCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson10/ExceptionBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson10/ExceptionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson10/ExceptionMultiplyCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson10/SrackExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson11/ChromeMobile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson11/homeTaskLesson11/TrelloAddToFavourite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson11/homeTaskLesson11/TrelloCreateDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson11/homeTaskLesson11/TrelloLoginLogout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson11/homeTaskLesson11/TrelloPublicPrivate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/ExplicitConvertion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/IntAndCharFromConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/PrimitiveWrapperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/Types.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/TypesConvertion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/TypesConvertionPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/VariableExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/homeWorkTasks/HomeWorkTaskFour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/homeWorkTasks/HomeWorkTaskThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/homeWorkTasks/HomeWorkTaskTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson2/homeWorkTasks/HomeWorkTastOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/AnnotationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/CinemaSeatsAmount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/DriverNavigate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/PersonalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/SeleniumTestNGNavigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/ToDoCinemaSeats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/ToDoCurrenceGetPageSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/ToDoCurrency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson3/ToDoImdbExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/BreakExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/DaysOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/ForExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/CompareTwoNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/FiveValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/LetsPlayAkinator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/MinAndMaxValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/HomeTaskLesson4/NumberOfMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson4/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson5/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson5/ClassWorkCinemaFilms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson5/DriverFindElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson5/HomeWorkCssDiner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/ArrayPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/ArrayToString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/ArraysExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/ArraysLoopExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/ArraysSortEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/BubbleSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/IncrementDecrementExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/PracticeToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/AGamer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/AI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/GameSettingsForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/MainForm$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/MainForm$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/MainForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/MainGameField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/MainGameField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/CrossesZeros/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson6/homeWorkLesson6/ToDoArraysSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/HeavyBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/MainForBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/Palindrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/PrimitiveAndBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/StringIsImmutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/StringsCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson7/homeTaskLesson7/CountAInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson8/MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson8/MyTestWithListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trello/JustForFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trello/Pages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trello/pages/BoardsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trello/pages/LoginPage.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,49 +102,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloCreateDelete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloAddToFavourite.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="41" column="95" lean-forward="true" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+            <state relative-caret-position="312">
+              <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +124,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/SortExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="120">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,13 +136,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -103,7 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wingame</find>
       <find>position</find>
       <find>choi</find>
       <find>//*[@class='bubble-tail']/p</find>
@@ -133,6 +184,7 @@
       <find>btnStart</find>
       <find>Recently Boards</find>
       <find>M</find>
+      <find>gitignore</find>
     </findStrings>
     <replaceStrings>
       <replace>OK</replace>
@@ -143,6 +195,7 @@
       <dir>$PROJECT_DIR$/src/main/java</dir>
       <dir>$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6</dir>
       <dir>$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/CrossesZeros</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -197,11 +250,11 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson12/TreeSetExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson13/SortExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/CrossesZeros/GameSettingsForm.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lesson13/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloAddToFavourite.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -224,10 +277,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="32" />
-    <option name="width" value="1215" />
-    <option name="height" value="724" />
+    <option name="x" value="306" />
+    <option name="y" value="66" />
+    <option name="width" value="1507" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,6 +288,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,31 +321,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
-              <item name="homeTaskLesson11" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,10 +525,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="32" width="1215" height="724" extended-state="0" />
-    <editor active="true" />
+    <frame x="173" y="34" width="1507" height="985" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29854578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21697468" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +541,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30917874" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22429906" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.24637681" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2447665" />
@@ -850,13 +885,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/examCl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/examCl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/PrimitiveAndBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -899,40 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/SortExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -998,6 +993,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/GetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/SortExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson13/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
