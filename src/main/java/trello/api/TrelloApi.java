@@ -10,8 +10,8 @@ import java.util.concurrent.TimeUnit;
 
 public class TrelloApi {
 
-    public static final String KEY = "c27311bd9d6d056f62309adcb5475d3b";
-    public static final String TOKEN = "12ff112af57bac4bddb2e46c0cf55f9ceeca8c7e92dd0f53edc07f9d91cce656";
+    public static final String KEY = "***";
+    public static final String TOKEN = "**";
 
     OkHttpClient client = new OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)

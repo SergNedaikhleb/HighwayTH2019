@@ -38,6 +38,8 @@ public class ToDoCurrenceGetPageSource {
       //  Matcher mpr = pr.matcher(sourcePr);
 
 
+
+
         String sourcePrivat = driver.getPageSource();
         String bankName = driver.getTitle();
         WebElement dollarPrivatbank = driver.findElement(By.xpath("//*[@class='section'][1]"));
