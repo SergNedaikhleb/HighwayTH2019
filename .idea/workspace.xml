@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,72 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="170" column="1" lean-forward="true" selection-start-line="166" selection-start-column="3" selection-end-line="170" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookZeRoshenRemind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="189">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +28,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/KismiaPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,34 +40,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappuBirthday.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="292">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/HomeWorkLessonOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -197,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lesson3/CinemaSeatsAmount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cl.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson7/homeTaskLesson7/CountAInString.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/ExceExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/ExceptionMultiplyCatch.java" />
@@ -248,6 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookZeRoshenRemind.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/KismiaPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
       </list>
     </option>
   </component>
@@ -270,10 +185,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2203" />
-    <option name="y" value="11" />
-    <option name="width" value="1507" />
-    <option name="height" value="983" />
+    <option name="x" value="80" />
+    <option name="y" value="53" />
+    <option name="width" value="1282" />
+    <option name="height" value="719" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,40 +229,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
-              <item name="homeWorkTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="homeTaskLesson8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -357,7 +238,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trello" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,42 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ToDoCurrenceGetPageSource.myTest">
-    <configuration name="GetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.GetRequest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest.tryIt" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HighwayTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.GetRequest" />
-      <option name="METHOD_NAME" value="tryIt" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TrelloApiTest">
     <configuration name="ToDoCurrenceGetPageSource.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -471,6 +317,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrelloApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trello.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trello.api" />
+      <option name="MAIN_CLASS_NAME" value="trello.api.TrelloApiTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrelloApiTest.tryIt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HighwayTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trello.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trello.api" />
+      <option name="MAIN_CLASS_NAME" value="trello.api.TrelloApiTest" />
+      <option name="METHOD_NAME" value="tryIt" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrelloLoginLogout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -490,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TrelloApiTest" />
+        <item itemvalue="TestNG.TrelloApiTest.tryIt" />
         <item itemvalue="TestNG.ToDoCurrenceGetPageSource.myTest" />
         <item itemvalue="TestNG.TrelloAddToFavourite" />
         <item itemvalue="TestNG.TrelloLoginLogout" />
-        <item itemvalue="TestNG.GetRequest.tryIt" />
-        <item itemvalue="TestNG.GetRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -561,9 +442,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2203" y="11" width="1507" height="983" extended-state="0" />
+    <frame x="80" y="53" width="1282" height="719" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2313484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16019417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,9 +459,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23653395" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29383117" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24637681" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21095008" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24415888" />
       <window_info anchor="bottom" id="SVN Repositories" order="11" weight="0.3295063" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -633,20 +515,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/Palindrom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/StringsCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/MainForBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -782,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloPublicPrivate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="69" column="99" lean-forward="true" selection-start-line="69" selection-start-column="99" selection-end-line="69" selection-end-column="99" />
+        <state relative-caret-position="186">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -934,13 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/hometaskLesson8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/hometaskLesson8.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/ToDoArraysSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -950,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloAddToFavourite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloCreateDelete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="315">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1005,30 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
@@ -1039,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="2235">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1049,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="225">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1061,6 +903,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloLoginLogout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
