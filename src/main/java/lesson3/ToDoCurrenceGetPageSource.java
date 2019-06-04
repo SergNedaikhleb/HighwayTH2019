@@ -33,20 +33,19 @@ public class ToDoCurrenceGetPageSource {
 
         // write privatbank currency exchange
         String sourcePr = driver.getPageSource();
-        String regPr = "\b[0-9]{2}[.][0-9]{3}\b";
-        Pattern pr = Pattern.compile("\b[0-9]{2}[.][0-9]{3}\b");
-      //  Matcher mpr = pr.matcher(sourcePr);
+        String regPr = "[0-9]{2}[.][0-9]{3}";
+        Pattern pr = Pattern.compile("[0-9]{2}[.][0-9]{3}");
+        Matcher mpr = pr.matcher(sourcePr);
+        System.out.println(mpr);
 
-
-
-
+        System.out.println(mpr);
         String sourcePrivat = driver.getPageSource();
         String bankName = driver.getTitle();
         WebElement dollarPrivatbank = driver.findElement(By.xpath("//*[@class='section'][1]"));
         System.out.println("This is: "+bankName);
         System.out.println("Privatbank buy currency: "+dollarPrivatbank.getText());
         System.out.println("-------------------");
-        System.out.println(pr);
+     //   System.out.println(b);
 
 //
 //        String privMin = dollarPrivatbank.getText();

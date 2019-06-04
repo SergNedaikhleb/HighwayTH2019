@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo" />
+    <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,10 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
+            <state relative-caret-position="195">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,12 +159,12 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloAddToFavourite.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappuBirthday.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookZeRoshenRemind.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/KismiaPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java" />
       </list>
     </option>
   </component>
@@ -183,9 +186,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="81" />
-    <option name="y" value="31" />
+    <option name="y" value="30" />
     <option name="width" value="1282" />
     <option name="height" value="719" />
   </component>
@@ -221,6 +224,48 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeTaskLesson4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="homeTaskLesson8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -280,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TrelloApiTest">
+  <component name="RunManager" selected="TestNG.ToDoCurrenceGetPageSource.myTest">
     <configuration name="ToDoCurrenceGetPageSource.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HighwayTH2019" />
       <extension name="coverage">
@@ -370,9 +415,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ToDoCurrenceGetPageSource.myTest" />
         <item itemvalue="TestNG.TrelloApiTest" />
         <item itemvalue="TestNG.TrelloApiTest.tryIt" />
-        <item itemvalue="TestNG.ToDoCurrenceGetPageSource.myTest" />
         <item itemvalue="TestNG.TrelloAddToFavourite" />
         <item itemvalue="TestNG.TrelloLoginLogout" />
       </list>
@@ -400,15 +445,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.02 at 17h 05m 45s.xml">
-      <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.02 at 17h 06m 19s.xml">
-      <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.02 at 17h 12m 50s.xml">
-      <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.02 at 17h 38m 48s.xml">
       <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
     </history-entry>
@@ -430,6 +466,15 @@
     <history-entry file="TrelloApiTest - 2019.06.04 at 19h 43m 36s.xml">
       <configuration name="TrelloApiTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.04 at 19h 57m 22s.xml">
+      <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.04 at 19h 58m 21s.xml">
+      <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ToDoCurrenceGetPageSource_myTest - 2019.06.04 at 20h 03m 26s.xml">
+      <configuration name="ToDoCurrenceGetPageSource.myTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,9 +486,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="53" width="1282" height="719" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16019417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24701196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,12 +498,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46266234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4618834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3133117" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20179372" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21095008" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24415888" />
@@ -835,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="170" column="1" lean-forward="true" selection-start-line="166" selection-start-column="3" selection-end-line="170" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookZeRoshenRemind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -939,7 +975,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrenceGetPageSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
