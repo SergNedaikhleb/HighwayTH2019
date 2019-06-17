@@ -1,41 +1,61 @@
 package lesson3;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.*;
+import java.text.DecimalFormat;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class CinemaSeatsAmount {
-    public static void main(String [] args) {
-        WebDriver driver = new ChromeDriver();
+    WebDriver driver;
+
+    @BeforeTest
+    public void setUp(){
+        System.setProperty("webdriver.chrome.driver", "/home/ilyasemenov/Chromedriver/chromedriver");
+        driver = new ChromeDriver();
+    }
+
+    @Test
+    public void printFilmAttributes() throws InterruptedException {
         driver.get("http://liniakino.com/showtimes/aladdin/");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        // scroll to necessary block
-        WebElement curseLaJorona = driver.findElement(By.cssSelector("#content-inner > div > ul > li:nth-child(3) > h1"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", curseLaJorona);
+        driver.findElement(By.xpath("//h1/a[contains(@href, '7531')]/../..//li/a")).click();
 
-        driver.findElement(By.xpath("//h1/a[text()='Прокляття Ла Йорони']")).click();
-        driver.findElement(By.xpath("//div[@class='buttons']")).click();
-        driver.findElement(By.xpath("//div[@class='day-block showtime-day'][1]/div[@class='showtime-theater'][1]/ul[@class='showtime-time'][1]/li[1]/a[1]")).click();
-        driver.switchTo().frame(driver.findElement(By.xpath("//iframe")));
+        //Pause
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@class,'arcticmodal-close')]")));
 
-        driver.findElement(By.xpath("//div[@class='widget-window-close arcticmodal-close']")).click();
-        List<WebElement> freePlaceList = driver.findElements(By.xpath("//div[@id='hall-scheme-container']//div[@class='seat seat-color1']"));
-        List<WebElement> occupiedList = driver.findElements(By.xpath("//div[@class='seat seat-occupied']"));
+        driver.switchTo().frame(0);
+        wait = new WebDriverWait(driver, 5);
+
+        try {
+            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(@class,'arcticmodal-close')]")));
+            ((JavascriptExecutor)driver).executeScript("arguments[0].click()", element);
+
+            List<WebElement> seats = driver.findElements(By.xpath("//*[contains(@id, 'hseat')]"));
+            List<WebElement> occupiedSeats = driver.findElements(By.xpath("//*[contains(@class, 'occupied')]"));
+
+            int totalSeats = seats.size();
+            int totalOccupiedSeats = occupiedSeats.size();
+
+            System.out.println("Total seats: " + totalSeats);
+            System.out.println("Occupied seats: " + totalOccupiedSeats);
+            System.out.println("Total free seats: " + (totalSeats - totalOccupiedSeats));
+
+            DecimalFormat df = new DecimalFormat("#.##");
+            System.out.println("Occupied seats percent: " + df.format(100.0*(totalOccupiedSeats)/totalSeats) + "%");
+            System.out.println("Free seats percent: " + df.format(100.0*(totalSeats - totalOccupiedSeats)/totalSeats) + "%");
+        }
+        catch (TimeoutException e) {
+            System.out.println("Try again in 5 minutes.");
+        }
+    }
+
+    @AfterTest
+    public void tearDown(){
         driver.quit();
-        float notOccupied = (float) freePlaceList.size();
-        float occupied = (float) occupiedList.size();
-        float total = notOccupied + occupied;
-        float freePlacePerc = (notOccupied * 100) / total;
-        float occupiedPerc = (occupied * 100) / total;
-
-        System.out.println("Total number of seats: " + total);
-        System.out.println("Not occupied seats: " + freePlacePerc + "%");
-        System.out.println("Occupied seats: " + occupiedPerc+ "%");
     }
 }
