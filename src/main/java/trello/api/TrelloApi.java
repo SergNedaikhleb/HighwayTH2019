@@ -35,5 +35,4 @@ public class TrelloApi {
         String response = client.newCall(request).execute().body().string();
         System.out.println(response);
     }
-
 }
