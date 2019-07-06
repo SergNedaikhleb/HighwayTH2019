@@ -11,7 +11,7 @@ public class GetMin {
     }
 
     private static int getMinimum (List<Integer> list) {
-        //Ваш код
+
         return Collections.min(list);
     }
 
