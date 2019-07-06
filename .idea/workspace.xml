@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo" />
+    <list default="true" id="66625e9c-4655-46d9-a974-f6d8269140db" name="Default Changelist" comment="new repo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,96 +18,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Board.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappyBirthday.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="80" lean-forward="true" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
-              <folding>
-                <element signature="e#1399#1418#0" expanded="true" />
-                <element signature="e#1646#1654#0" expanded="true" />
-                <element signature="e#2222#2230#0" expanded="true" />
-                <element signature="e#4755#4763#0" expanded="true" />
-                <element signature="e#4813#4821#0" expanded="true" />
-                <element signature="e#4866#4874#0" expanded="true" />
-                <element signature="e#7395#7396#0" expanded="true" />
-                <element signature="e#7448#7449#0" expanded="true" />
-                <element signature="e#9105#9113#0" expanded="true" />
-                <element signature="e#9735#9743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/ComputerRandomImprovedStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+            <state relative-caret-position="465">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/ComputerRandomStrategy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/GetReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="297">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/HumanInputStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding>
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Strategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#745#753#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/Moviek.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieScoreComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieTitlesComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/SortSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#216#224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//*[@class='question-text']</find>
       <find>DIMENSION</find>
       <find>jLabelAILevel</find>
       <find>modeAgainstAI</find>
@@ -151,11 +145,13 @@
       <find>LoginPage</find>
       <find>moves</find>
       <find>system</find>
+      <find>Movie14</find>
     </findStrings>
     <replaceStrings>
       <replace>OK</replace>
       <replace>BATTLEFIELD</replace>
       <replace>length</replace>
+      <replace>Moviek</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java</dir>
@@ -164,6 +160,7 @@
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/src/main</dir>
       <dir>$PROJECT_DIR$/src/main/java/homework_SeaBattle</dir>
+      <dir>$PROJECT_DIR$/src/main/java/lesson14/hometask14</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -172,12 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lesson7/MainForBox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson7/StringIsImmutable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson7/homeTaskLesson7/StringsCompare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson7/StringsCompare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/CrossesZeros/MainForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson3/ToDoCurrency.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/Pages.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/JustForFun.java" />
@@ -206,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/KismiaTestNG.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookZelRosh.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappyBirthday.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lesson16/Gsonexample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson16/TrelloList.java" />
@@ -223,6 +213,13 @@
         <option value="$PROJECT_DIR$/src/main/java/homework_SeaBattle/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework_SeaBattle/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework_SeaBattle/HumanInputStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappyBirthday.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson14/MovieScoreComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson14/MovieTitlesComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson14/GetReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson14/Moviek.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson14/SortSample.java" />
       </list>
     </option>
   </component>
@@ -245,10 +242,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1988" />
-    <option name="y" value="19" />
-    <option name="width" value="1668" />
-    <option name="height" value="958" />
+    <option name="x" value="262" />
+    <option name="y" value="80" />
+    <option name="width" value="1536" />
+    <option name="height" value="881" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,30 +284,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework_SeaBattle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HighwayTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HighwayTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
-              <item name="homeTaskLesson11" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +301,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/lesson6/homeWorkLesson6/CrossesZeros" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../comtrello" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3873563" />
@@ -504,9 +484,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1988" y="19" width="1668" height="958" extended-state="0" />
+    <frame x="262" y="80" width="1536" height="881" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23551172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,9 +501,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25693607" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25664893" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.20926756" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.265252" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24415888" />
       <window_info anchor="bottom" id="SVN Repositories" order="11" weight="0.3295063" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -576,70 +557,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloPublicPrivate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/BingSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/GoogleSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/ListExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/SearchForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson12/TreeSetExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -815,18 +732,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookZelRosh.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappyBirthday.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson15/OptionListItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -926,41 +831,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/homeTaskLesson11/TrelloCreateDelete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -989,27 +866,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="80" lean-forward="true" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
+        <state relative-caret-position="15">
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#1399#1418#0" expanded="true" />
-            <element signature="e#1646#1654#0" expanded="true" />
-            <element signature="e#2222#2230#0" expanded="true" />
-            <element signature="e#4755#4763#0" expanded="true" />
-            <element signature="e#4813#4821#0" expanded="true" />
-            <element signature="e#4866#4874#0" expanded="true" />
-            <element signature="e#7395#7396#0" expanded="true" />
-            <element signature="e#7448#7449#0" expanded="true" />
-            <element signature="e#9105#9113#0" expanded="true" />
-            <element signature="e#9735#9743#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/HumanInputStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="95">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#188#189#0" expanded="true" />
@@ -1017,10 +893,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework_SeaBattle/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/homeTaskLesson8/FacebookHappyBirthday.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieScoreComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieTitlesComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/GetReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#745#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/SortSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/Moviek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
